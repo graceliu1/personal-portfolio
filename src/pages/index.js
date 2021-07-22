@@ -6,10 +6,10 @@ import {
   section1, section2, section3, section4, section5, section6,
   sectionName, sectionContent,
   sectionImage, sectionImage2,sectionImage3, sectionImage4, sectionImage5, sectionImage6,
-  footer,
+  footer, imageSection
 } from '../components/section.module.css'
 
-import figure1 from "../images/introduction_figure.png"
+import figure1 from  "../images/portfolio_photo.png" /*"../images/introduction_figure.png"*/
 import figure2 from "../images/programming_figure.png"
 import figure3 from "../images/math_figure.png"
 import figure4 from "../images/engineering_figure.png"
@@ -47,24 +47,30 @@ const IndexPage = () => (
         <div  className = {section1}>
           
           <div className = {sectionContent} >
-            <p className = {sectionName}>hello, i'm grace.</p>
+            <p className = {sectionName}>hey, i'm grace!</p>
             
-            <p>a student from the bay area passionate <br></br>about
-              <span className = {highlightText}>problem solving + creativity</span>
-              in real life.
+            <p>i'm a student from the bay area who's passionate <br></br>about 
+            creating -- combining 
+              <span className = {highlightText}>problem solving skills + creative thinking</span>
+              to address challenges in my community.
             </p>
-            <p>i love creating - whether with code or words, my projects
-              connect me to my community and open up new possibilities. </p>
-            <p>
-              feel free to learn more about me by scrolling down!
+            <p>serving as a student leader has taught me the value of collaboration. 
+              my clubs include: Girls Who Code, Dublin Shield, Spanish Honors Society, 
+               Girls Math Association, robotics, and economics. 
+
+            </p>
+            <p>in my spare time, i enjoy working on projects that connect 
+            <span className = {highlightText}>STEM and the humanities.</span> 
             </p>
 
-            <Link to="/about-me/"><Button linkDescription = "more about me" color = "greenButton"></Button></Link>
+            <Link to="/about-me/"><Button linkDescription = "a little more about me" color = "greenButton"></Button></Link>
           </div>
         
         </div>
-
+        <div className = {imageSection}>
         <img className = {sectionImage} src = {figure1}/>
+        </div>
+        
     </Section>
   
     

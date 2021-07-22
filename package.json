@@ -7,6 +7,9 @@
   "dependencies": {
     "@fontsource/cabin": "^4.4.5",
     "@fontsource/fira-code": "^4.4.5",
+    "@fontsource/lato": "^4.5.0",
+    "@fontsource/roboto": "^4.5.0",
+    "@fontsource/roboto-condensed": "^4.5.0",
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^3.6.2",
     "gatsby-plugin-gatsby-cloud": "^2.6.1",
