@@ -1,0 +1,70 @@
+.section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Cabin', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .sectionAboutMe{
+    box-shadow: inset 0px 2px 5px rgba(155, 155, 155, 0.9); 
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width:52%;
+}
+.section1 { background-color: #ffd8d6; } /*#FFDEDE; height: 400px;*/
+.section2 { background-color: #ffeed9; margin-left: auto;} /*ffbab3*/
+.section3 { background-color: #C31644; color: white;}
+.section4 { background-color: #B48967; margin-left: auto;}
+.section5 { background-color: #cde7dc; }
+.section6 { background-color: #432B27; margin-left: auto;}
+.sectionAboutMe { background-color: #ffffff;}
+.sectionContainer {
+    display: flex;
+    
+    padding-top: 30px;
+    margin: auto;
+
+    /*max-width: 80%;*/
+}
+.sectionName {
+    font-family:'Cabin', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+
+}
+.sectionContent {
+    justify-content:center;
+    /*max-width: 70%;*/
+}
+.sectionImage {
+    align-self:center;
+    margin: auto;
+    width: 170px;
+}
+.sectionImage2 {
+    align-self:center;
+    margin-left: 50px;
+    width: 230px;
+}
+.sectionImage3 {
+    align-self:center;
+    margin-left: 50px;
+    width: 180px;
+}
+
+.sectionImage4 {
+    align-self: center;
+    margin-left: 40px;
+}
+
+.sectionImage5 {
+    align-self: center;
+    width: 180px;
+    margin-left: 40px;
+}
+
+.sectionImage6 {
+    align-self: center;
+    margin-left: 50px;
+}

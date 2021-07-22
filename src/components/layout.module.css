@@ -1,0 +1,56 @@
+.container {
+    margin: auto;
+    max-width: 850px;
+    font-family: sans-serif;
+  }
+  
+.heading {
+    color: rebeccapurple;
+}
+.nav {
+    display: inline-block !important;
+}
+.nav-links {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.nav-link-item {
+    padding-right: 20px;
+    font-family:'Cabin', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link-text, .active  {
+    color: black;
+    font-size: 17px;
+    padding-bottom: 3px;
+}
+.nav-link-text:hover, .active {
+    color: palevioletred;
+    border-bottom: 2px solid palevioletred;
+}
+.siteHeader {
+    margin-top: 30px;
+}
+.socialIcon {
+    margin-top: 30px;
+    width: 45px;
+    height: 45px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    float:right;
+    color: rgb(0, 0, 0);
+}
+.socialIcon:hover {
+    color: palevioletred;
+    margin-top: 30px;
+    
+    
+    float:right;
+}
+.websiteLogo {
+    max-width: 180px;
+    
+}
