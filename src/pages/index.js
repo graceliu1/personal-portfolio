@@ -9,6 +9,10 @@ import {
   footer, imageSection, firstSectionRight
 } from '../components/section.module.css'
 
+import { highlightText } from '../components/main.module.css'
+import Layout from "../components/layout"
+import Section from '../components/section'
+import Button from '../components/button'
 import figure1 from  "../images/portfolio_photo.png" /*"../images/introduction_figure.png"*/
 import figureBear from "../images/portfolio_bear.png"
 import figure2 from "../images/programming_figure.png"
@@ -16,12 +20,10 @@ import figure3 from "../images/math_figure.png"
 import figure4 from "../images/engineering_figure.png"
 import figure5 from "../images/poetry_figure.png"
 import figure6 from "../images/music_figure.png"
-import { highlightText } from '../components/main.module.css'
-import Layout from "../components/layout"
-import Section from '../components/section'
-import Button from '../components/button'
-
 /*
+
+
+
  
           <StaticImage className = {sectionImage} style = {{ width: '250px'}}
             alt="Abstract Figure 1"
@@ -71,12 +73,12 @@ const IndexPage = () => (
         
         </div>
         <div className = {firstSectionRight} >
-
-          <img className = {sectionImage} src = {figureBear}  style = {{minWidth: '80%'}} />
-          
+          <img className = {sectionImage} src = {figureBear} style = {{minWidth: '80%'}} />
+        
           <div className = {imageSection}>
           
             <img className = {sectionImage} src = {figure1}/>
+
           </div>
 
         </div>

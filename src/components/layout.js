@@ -79,7 +79,7 @@ const Layout = ({ pageTitle, children }) => {
           <Link to="/">
             <StaticImage className = {websiteLogo}
               alt="Personal Site Logo"
-              src="../images/personal_website_logo.png"
+              src="../images/website_logo.png"
             />
           </Link>
 
@@ -91,7 +91,7 @@ const Layout = ({ pageTitle, children }) => {
               </Link>
             </li>
             <li className={navLinkItem}>
-              <Link to="/about" className={navLinkText}>
+              <Link to="/about-me" className={navLinkText}>
                 About Me 
               </Link>
             </li>
