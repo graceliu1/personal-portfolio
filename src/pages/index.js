@@ -6,10 +6,11 @@ import {
   section1, section2, section3, section4, section5, section6,
   sectionName, sectionContent,
   sectionImage, sectionImage2,sectionImage3, sectionImage4, sectionImage5, sectionImage6,
-  footer, imageSection
+  footer, imageSection, firstSectionRight
 } from '../components/section.module.css'
 
 import figure1 from  "../images/portfolio_photo.png" /*"../images/introduction_figure.png"*/
+import figureBear from "../images/portfolio_bear.png"
 import figure2 from "../images/programming_figure.png"
 import figure3 from "../images/math_figure.png"
 import figure4 from "../images/engineering_figure.png"
@@ -39,37 +40,47 @@ import Button from '../components/button'
 
 const IndexPage = () => (
   
-  <Layout pageTitle="Home Page">
-  
-   
+  <Layout pageTitle="Home Page" >
+    
+    <div >
+    
     <Section sectionTitle = "welcome">
         
         <div  className = {section1}>
           
           <div className = {sectionContent} >
-            <p className = {sectionName}>hey, i'm grace!</p>
+            <p className = {sectionName}>hello, i'm grace!</p>
             
-            <p>i'm a student from the bay area who's passionate <br></br>about 
+            <p>i'm a high school student from the bay area who's passionate about 
             creating -- combining 
               <span className = {highlightText}>problem solving skills + creative thinking</span>
               to address challenges in my community.
             </p>
-            <p>serving as a student leader has taught me the value of collaboration. 
-              my clubs include: Girls Who Code, Dublin Shield, Spanish Honors Society, 
-               Girls Math Association, robotics, and economics. 
+            <p>as a student leader, i understand the value of collaboration. 
+             the clubs i lead at school include: Girls Who Code, Dublin Shield, Spanish Honors Society, 
+               Girls Math Association, and economics. 
 
             </p>
-            <p>in my spare time, i enjoy working on projects that connect 
-            <span className = {highlightText}>STEM and the humanities.</span> 
+            <p>technology + engineering are my primary interests because of their potential.
+              in my spare time, i enjoy working on projects that connect my interests in
+            <span className = {highlightText}>STEM and the arts.</span> 
             </p>
 
             <Link to="/about-me/"><Button linkDescription = "a little more about me" color = "greenButton"></Button></Link>
           </div>
         
         </div>
-        <div className = {imageSection}>
-        <img className = {sectionImage} src = {figure1}/>
+        <div className = {firstSectionRight} >
+
+          <img className = {sectionImage} src = {figureBear}  style = {{minWidth: '80%'}} />
+          
+          <div className = {imageSection}>
+          
+            <img className = {sectionImage} src = {figure1}/>
+          </div>
+
         </div>
+        
         
     </Section>
   
@@ -226,7 +237,7 @@ const IndexPage = () => (
         </div>
     </Section>
 
-
+    </div>
   </Layout>
  
 )
@@ -255,6 +266,7 @@ const IndexPage = () => (
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p>
+    
   </Layout>*/
 
 export default IndexPage

@@ -1,17 +1,32 @@
 .container {
     margin: auto;
-    max-width: 900px;
+    max-width: 80%;/*1000px;*/
     font-family: sans-serif;
   }
   
 .heading {
     color: rebeccapurple;
 }
-.nav {
-    display: inline-block !important;
+.siteHeader {
+    
+    
+    width: 100%;
+    background-color: white;
+    position: sticky; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    
+}
+
+.navbar {
+    width: 80%;
+    margin-top: 15px;
+    display: flex; 
+    justify-content: space-between;
+    margin: auto;
+   
 }
 .nav-links {
-    justify-content: center;
+    
     display: flex;
     list-style: none;
     padding-left: 0;
@@ -29,28 +44,21 @@
     color: palevioletred;
     border-bottom: 2px solid palevioletred;
 }
-.siteHeader {
-    margin-top: 30px;
-}
 .socialIcon {
-    margin-top: 30px;
+    
     width: 45px;
     height: 45px;
     
     margin-left: 5px;
     margin-right: 5px;
     
-    float:right;
     color: rgb(0, 0, 0);
 }
 .socialIcon:hover {
     color: palevioletred;
-    margin-top: 30px;
-    
-    
     float:right;
 }
 .websiteLogo {
-    max-width: 180px;
+    max-width: 160px;
     
 }

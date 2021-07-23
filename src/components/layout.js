@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+
 import {
   container,
   heading,
@@ -11,6 +12,7 @@ import {
   socialIcon,
   websiteLogo,
   active,
+  navbar,
 } from './layout.module.css'
 
 import { FaEnvelopeSquare } from "@react-icons/all-files/fa/FaEnvelopeSquare";
@@ -18,14 +20,79 @@ import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
 
 /*
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import Row from 'react-bootstrap/Row'
+
+import 'bootstrap/dist/css/bootstrap.min.css';*/
+/*
         <a> <FaEnvelopeSquare className = {socialIcon} /> </a>
         <a> <FaLinkedin className = {socialIcon}/></a>
         <a> <FaInstagram className = {socialIcon}/></a>
 
-        <ul className={navLinks}>
+       
+*/
+/*
+OLD NAVBAR
+
+
+
+      <Navbar expand = "lg" className = {siteHeader}>
+        <Navbar.Brand href="/">
+          <StaticImage className = {websiteLogo}
+            alt="Personal Site Logo"
+            src="../images/personal_website_logo.png"
+          />
+
+        </Navbar.Brand>
+          
+
+
+        <Nav>
+          <Nav.Link className={navLinkText} className={active} href="#home">Home</Nav.Link>
+          <Nav.Link className={navLinkText} href="#features">Technology</Nav.Link>
+          <Nav.Link className={navLinkText} href="#pricing">Arts</Nav.Link>
+          <div style = {{float: 'right'}}>
+          <a> <FaEnvelopeSquare className = {socialIcon} /> </a>
+          <a> <FaLinkedin className = {socialIcon}/></a>
+          <a> <FaInstagram className = {socialIcon}/></a>
+        </div>
+        </Nav>
+
+        
+          
+
+          
+    </Navbar>
+      
+
+*/
+const Layout = ({ pageTitle, children }) => {
+  return (
+  
+    <main  >
+      
+      <title>{pageTitle}</title>
+      
+      <nav className = {siteHeader}>
+          <div className = {navbar}>
+          <Link to="/">
+            <StaticImage className = {websiteLogo}
+              alt="Personal Site Logo"
+              src="../images/personal_website_logo.png"
+            />
+          </Link>
+
+          <div style = {{alignSelf: 'center'}}>
+          <ul className={navLinks}>
             <li className={navLinkItem}>
               <Link to="/" className={navLinkText} className={active}>
                 Home
+              </Link>
+            </li>
+            <li className={navLinkItem}>
+              <Link to="/about" className={navLinkText}>
+                About Me 
               </Link>
             </li>
             <li className={navLinkItem}>
@@ -38,30 +105,18 @@ import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
                 Arts
               </Link>
             </li>
+            <li className={navLinkItem}>
+              <Link to="/about" className={navLinkText}>
+                Hobbies
+              </Link>
+            </li>
           </ul>
-*/
-const Layout = ({ pageTitle, children }) => {
-  return (
-  
-    <main className={container} >
-      
-      <title>{pageTitle}</title>
-      
-      <nav className = {siteHeader}>
-        
-
-        <a> <FaEnvelopeSquare className = {socialIcon} /> </a>
-          <a> <FaLinkedin className = {socialIcon}/></a>
-          <a> <FaInstagram className = {socialIcon}/></a>
-          <Link to="/">
-          <StaticImage className = {websiteLogo}
-            alt="Personal Site Logo"
-            src="../images/personal_website_logo.png"
-          />
-        </Link>
+          </div>
+          </div>
           
       </nav>
       
+      <div className={container}>
       {children}
 
       <div sectionName = "Footer" style = {{
@@ -75,7 +130,7 @@ const Layout = ({ pageTitle, children }) => {
           <p>created by grace liu</p>
           <p style = {{fontSize: '10px'}}>p.s. this site was built with Gatsby - an open source frontend framework</p>
         </div>
-      
+      </div>
     </main>
   )
 }

@@ -19,6 +19,7 @@ button {
     background-color: rgb(255, 158, 174);
 }
 .buttonText {
+    
     background-color:white;
     padding: 2px 5px 2px 8px;
     color: rgb(72, 74, 78);
@@ -26,8 +27,15 @@ button {
     font-family: 'Fira Code', sans-serif;
 }
 .buttonText:hover {
+    
     background-color: rgb(212, 92, 128);
     color: rgb(255, 255, 255);
+
+    left: 0; 
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 .greenButton:hover {
     background-color: rgb(124, 184, 156);
