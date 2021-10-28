@@ -4,16 +4,28 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import {
   section1, section2, section3, section4, section5, section6,
-  sectionName, sectionContent,
+  sectionName, sectionContent, sectionImageProfilePhoto,
   sectionImage, sectionImage2,sectionImage3, sectionImage4, sectionImage5, sectionImage6,
-  footer, imageSection, firstSectionRight
+  footer, imageSection, section1_Right,
+
+  section1_BearImage, section1_ProfilePhoto
 } from '../components/section.module.css'
 
-import { highlightText } from '../components/main.module.css'
+import { FaAngleRight} from "@react-icons/all-files/fa/FaAngleRight";
+
+import {
+  arrowIcon,
+  buttonText,
+} from "../components/main.module.css"
+
+import { highlightTextPink, highlightTextOrange} from '../components/main.module.css'
 import Layout from "../components/layout"
 import Section from '../components/section'
 import Button from '../components/button'
-import figure1 from  "../images/portfolio_photo.png" /*"../images/introduction_figure.png"*/
+import Spacer from '../components/spacer'
+
+/* BELOW ARE THE FIGURES */
+import figure1 from  "../images/square_profile_photo.png" /*"../images/introduction_figure.png"*/
 import figureBear from "../images/portfolio_bear.png"
 import figure2 from "../images/programming_figure.png"
 import figure3 from "../images/math_figure.png"
@@ -44,42 +56,51 @@ const IndexPage = () => (
   
   <Layout pageTitle="Home Page" >
     
-    <div >
+    <div>
     
-    <Section sectionTitle = "welcome">
+    <Section sectionTitle = "welcome" >
         
-        <div  className = {section1}>
+        <div className = {section1}>
           
           <div className = {sectionContent} >
             <p className = {sectionName}>hello, i'm grace!</p>
             
-            <p>i'm a high school student from the bay area who's passionate about 
-            creating -- combining 
-              <span className = {highlightText}>problem solving skills + creative thinking</span>
+            <p>i'm a high school student from the east bay area who's passionate about 
+              creating -- by combining 
+              <span className = {highlightTextPink}>problem solving skills & creative thinking</span>
               to address challenges in my community.
             </p>
-            <p>as a student leader, i understand the value of collaboration. 
-             the clubs i lead at school include: Girls Who Code, Dublin Shield, Spanish Honors Society, 
-               Girls Math Association, and economics. 
-
+            <p>as a student leader, i know that a strong team is essential to success. 
+              i lead the <em>girls who code</em> club, <em> the dublin shield</em>, the <em>sociedad honoraria hispanica</em>,
+                and the <em>econ club</em>. 
             </p>
-            <p>technology + engineering are my primary interests because of their potential.
-              in my spare time, i enjoy working on projects that connect my interests in
-            <span className = {highlightText}>STEM and the arts.</span> 
+            <p>check out some <span className = {highlightTextPink}>~cool visuals~</span> of my projects and organizations on this site!
             </p>
-
-            <Link to="/about-me/"><Button linkDescription = "a little more about me" color = "greenButton"></Button></Link>
+            
+            <Spacer></Spacer>
+            <Link to="/about-me/">
+                <a href = "google.com" target = "_blank" 
+                style = {{paddingTop: '10px'}}
+                >
+                  <button className = {buttonText} >
+                      a little more about me
+                      <FaAngleRight className = {arrowIcon} />
+                  </button>
+                  
+                </a>
+              
+              
+            </Link>
           </div>
         
         </div>
-        <div className = {firstSectionRight} >
-          <img className = {sectionImage} src = {figureBear} style = {{minWidth: '80%'}} />
-        
-          <div className = {imageSection}>
-          
-            <img className = {sectionImage} src = {figure1}/>
 
-          </div>
+        <div className = {section1_Right} >
+          <img className = {section1_BearImage} src = {figureBear}/>
+        
+            
+            <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {section1_ProfilePhoto} src = {figure1}/>
+
 
         </div>
         
@@ -118,6 +139,7 @@ const IndexPage = () => (
       
     </Section>
   
+
     <Section sectionTitle = "math">
 
         <div className = {section3}>
@@ -174,8 +196,8 @@ const IndexPage = () => (
       </div>
       
     </Section>
-
     
+
     <Section sectionTitle = "poetry">
       <div className = {section5}>
         <div>
@@ -208,8 +230,7 @@ const IndexPage = () => (
       </div>
       <img className = {sectionImage5} src = {figure5}/>
     </Section>
-   
-    
+  
     
     <Section sectionTitle = "music">
         <img className = {sectionImage6} src = {figure6}/>

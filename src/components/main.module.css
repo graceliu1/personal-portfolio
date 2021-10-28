@@ -10,27 +10,45 @@ button {
 .arrowIcon {
     margin-left: 3px;
 }
-.highlightText {
+.highlightTextPink {
     position: relative;
     margin-left: 5px;
     margin-right: 5px;
     padding-left: 2px;
     padding-right:2px;
+    padding-bottom: 2px;
     background-color: rgb(255, 158, 174);
 }
-.buttonText {
+.highlightTextOrange {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right:2px;
+    background-color: #fff4e6; 
     
+    
+}
+.buttonText {
+    position: relative;
+    margin-top: 10px;
+
+
     background-color:white;
-    padding: 2px 5px 2px 8px;
     color: rgb(72, 74, 78);
+    
+    padding: 5px 5px 5px 8px;
+    
     font-size: 18px;
     font-family: 'Fira Code', sans-serif;
 }
 .buttonText:hover {
     
+    /*pink button, white hover*/
+    /*background-color: rgb(212, 92, 128);
+    color: rgb(255, 255, 255);*/
     background-color: rgb(212, 92, 128);
     color: rgb(255, 255, 255);
-
     left: 0; 
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;

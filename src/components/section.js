@@ -4,9 +4,9 @@ import {
   sectionContainer,
 } from './section.module.css'
 
-const Section = ({ sectionTitle, children }) => {
+const Section = ({ sectionTitle, sectionWidth, children }) => {
   return (
-    <div className = {section}>
+    <div className = {section} >
         <div className = {sectionContainer}>
         
             {children}
