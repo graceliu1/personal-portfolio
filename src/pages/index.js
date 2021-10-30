@@ -48,7 +48,7 @@ import figure6 from "../images/music_figure.png"
           />
           
           i founded the girls math association to encourage my peers to enter
-              the math competition scene. every year, i oragnize the annual gma 
+              the math competition scene. every year, i organize the annual gma 
               math contest for middle school girls. over 200 girls have attended in the past two years.
           */
 
@@ -60,21 +60,22 @@ const IndexPage = () => (
     
     <Section sectionTitle = "welcome" >
         
-        <div className = {section1}>
+        <div className = {section1} style = {{position: 'absolute'}}>
           
           <div className = {sectionContent} >
             <p className = {sectionName}>hello, i'm grace!</p>
             
             <p>i'm a high school student from the east bay area who's passionate about 
               creating -- by combining 
-              <span className = {highlightTextPink}>problem solving skills & creative thinking</span>
+              <span className = {highlightTextPink} style = {{zIndex: '0'}}>problem solving skills & creative thinking</span>
               to address challenges in my community.
             </p>
             <p>as a student leader, i know that a strong team is essential to success. 
               i lead the <em>girls who code</em> club, <em> the dublin shield</em>, the <em>sociedad honoraria hispanica</em>,
                 and the <em>econ club</em>. 
             </p>
-            <p>check out some <span className = {highlightTextPink}>~cool visuals~</span> of my projects and organizations on this site!
+            <p>check out some <span className = {highlightTextPink} style = {{zIndex: '0'}}>~cool visuals~</span> of my projects and organizations on this site! p.s.
+            all designs and images on here are created by me :)
             </p>
             
             <Spacer></Spacer>
