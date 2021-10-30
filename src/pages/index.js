@@ -60,7 +60,7 @@ const IndexPage = () => (
     
     <Section sectionTitle = "welcome" >
         
-        <div className = {section1} style = {{position: 'absolute'}}>
+        <div className = {section1} style = {{position: 'relative'}}>
           
           <div className = {sectionContent} >
             <p className = {sectionName}>hello, i'm grace!</p>
