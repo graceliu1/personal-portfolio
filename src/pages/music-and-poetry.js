@@ -6,11 +6,6 @@ import {sectionName,
   sectionContent,
   sectionAboutMe} from '../components/section.module.css'
 
-import {
-  websiteImage,
-  sectionRobotics
-} from '../components/technology.css'
-
 import Layout from "../components/layout"
 import Section from '../components/section'
 import Button from '../components/button'
@@ -25,11 +20,12 @@ const FourthPage = () => (
   <Layout>
     <Seo title="Music and Poetry" />
     
-    <img src = {three_names_poem} style = {{minWidth:'150px'}}/>
-     <img src = {somnium_poem} style = {{minWidth:'150px'}}/>
+   
     <Section sectionTitle = "Poetry">
+       <img src = {three_names_poem} style = {{minWidth:'150px'}}/>
+       <img src = {somnium_poem} style = {{minWidth:'150px'}}/>
 
-      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
+      <div style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
         <div style = {{margin: '30px'}}>
           <p className = {sectionName}>Poetry</p>
           
