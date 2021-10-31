@@ -25,8 +25,8 @@ const FourthPage = () => (
   <Layout>
     <Seo title="Music and Poetry" />
     
-    <img src = {{three_names_poem}} />
-     <img src = {{somnium_poem}} />
+    <img src = {{three_names_poem}} style = {{minWidth:'150px'}}/>
+     <img src = {{somnium_poem}} style = {{minWidth:'150px'}}/>
     <Section sectionTitle = "Poetry">
 
       <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
@@ -45,8 +45,8 @@ const FourthPage = () => (
         </div>
       </div>
     </Section>
-    <img src = {{pottery_memoirs_poem}} />
-     <img src = {{inception_poem}} />
+    <img src = {{pottery_memoirs_poem}} style = {{minWidth:'150px'}}/>
+     <img src = {{inception_poem}} style = {{minWidth:'150px'}}/>
     
     <Section sectionTitle = "Music">
 
