@@ -74,6 +74,9 @@ const IndexPage = () => (
               i lead the <em>girls who code</em> club, <em> the dublin shield</em>, the <em>sociedad honoraria hispanica</em>,
                 and the <em>econ club</em>. 
             </p>
+            <p>
+                  my favorite things to do in my free time: read (send book recs!), city scavenger hunts, sing covers.
+            </p>
             <p>check out some <span className = {highlightTextPink} style = {{zIndex: '0'}}>~cool visuals~</span> of my projects and organizations on this site! p.s.
             all designs and images on here are created by me :)
             </p>
