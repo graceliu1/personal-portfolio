@@ -46,7 +46,7 @@ const FourthPage = () => (
     
     <Section sectionTitle = "Music">
 
-      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
+      <div style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
         <div style = {{margin: '30px'}}>
           <p className = {sectionName}>Music</p>
           
