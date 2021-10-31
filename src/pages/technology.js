@@ -36,10 +36,14 @@ const ThirdPage = () => (
   <Layout>
     <Seo title="Technology" />
        <p className = {sectionName}>Code Garden</p>
-    
-          <div style = {{backgroundColor: 'green', margin: '15px, 15px, 15px, 15px'}}>
-          <p>&#60; a collection of some of my full-stack work is shown below. hover over the images to see details. &#62'</p>
-        </div>
+      <Section>
+          <div  style = {{backgroundColor: '#a4f2a0', margin: '30px'}}>
+          <p className = {sectionName}>Code Garden</p>
+          <p>&#60; a collection of some of my full-stack work is shown below. hover over the images to see details. &#62;</p>
+
+          </div>
+      </Section>
+         
 
   <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website1_math}/>
   <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website2_eluo}/>
