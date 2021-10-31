@@ -5,3 +5,8 @@
 .websiteImage:hover {
   filter: grayscale(50%);
 }
+
+.sectionRobotics {
+  min-width:50%;
+  
+}
