@@ -1,4 +1,7 @@
-.website-image {
+.websiteImage {
   width: 400px;
   max-height: 100%;
+}
+.websiteImage:hover {
+  filter: grayscale(50%);
 }
