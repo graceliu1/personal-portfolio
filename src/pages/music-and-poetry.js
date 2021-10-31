@@ -42,12 +42,12 @@ const FourthPage = () => (
         </div>
       </div>
     </Section>
-     <img src = {inception_poem} style = {{minWidth:'150px'}}/>
-<img src = {somnium_poem} style = {{minWidth:'150px'}}/>
+     <img src = {inception_poem} style = {{minWidth:'250px'}}/>
+<img src = {somnium_poem} style = {{minWidth:'250px'}}/>
     
     <Section sectionTitle = "Music">
 
-      <div style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
+      <div style = {{backgroundColor: '#ffde85', maxWidth: '40%'}}>
         <div style = {{margin: '30px'}}>
           <p className = {sectionName}>Music</p>
           
