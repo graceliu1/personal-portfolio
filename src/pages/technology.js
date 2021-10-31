@@ -48,10 +48,8 @@ const ThirdPage = () => (
     <Section sectionTitle = "Robotics">
 
       <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', minWidth: '50%'}}>
-        <div>
+        <div style = {{maxWidth: '80%', marginBottom: '15px'}}>
           <p className = {sectionName}>Robotics Field</p>
-          <p>to me, the ability to code is freedom to explore and make anything i want to. 
-          </p>
           
           <p>
              One of the best parts of my robotics experience was experimenting with various builds. Through taking mechanisms apart and trying new designs, I
@@ -64,6 +62,7 @@ const ThirdPage = () => (
       </div>
       
     </Section>
+    <img style = {{maxWidth: '500px'}} src = {team_award_picture}/>
 
     <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot1}/>
     <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot2}/>
@@ -71,6 +70,7 @@ const ThirdPage = () => (
     <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot4}/>
       
 
+     <img style = {{maxWidth: '500px'}} src = {girl_powered_picture}/>
 
 
     
