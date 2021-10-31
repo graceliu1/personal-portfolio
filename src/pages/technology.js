@@ -22,16 +22,13 @@ import website4_classify from "../images/website4-classify.PNG"
 const ThirdPage = () => (
   <Layout>
     <Seo title="Technology" />
-       <p className = {sectionName}Code Garden ---------------------------------------------------------- </p>
+       <p className = {sectionName}Code Garden  </p>
             
       <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website1_math}/>
       <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website2_eluo}/>
       <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website3_gma}/>
       <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website4_classify}/>
       
-      <p className = {sectionName} ----------------------------------------------------- Robot Field </p>
-
-
     <Section sectionTitle = "Robotics" style = {{marginTop: '20px'}}>
          <div className = {sectionAboutMe}
          style = {{backgroundColor: 'rgb(120, 235, 177)'}}>
