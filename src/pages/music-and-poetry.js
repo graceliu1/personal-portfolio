@@ -28,7 +28,7 @@ import robot4 from "../images/robot4.jpg"
 
 const FourthPage = () => (
   <Layout>
-    <Seo title="Arts" />
+    <Seo title="Music and Poetry" />
        
     <Section sectionTitle = "Poetry">
 
