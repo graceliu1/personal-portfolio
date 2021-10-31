@@ -20,6 +20,10 @@ import website2_eluo from "../images/website2_eluo.png"
 import website3_gma from "../images/website3_gma.png"
 import website4_classify from "../images/website4_classify.png"
 
+import robot1 from "../images/robot1.png"
+import robot2 from "../images/robot2.jpg"
+import robot3 from "../images/robot3.jpg"
+import robot4 from "../images/robot4.jpg"
 
 const ThirdPage = () => (
   <Layout>
@@ -27,7 +31,7 @@ const ThirdPage = () => (
        <p className = {sectionName}>Code Garden</p>
   
 
-  <img  className = {websiteImage}style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} src = {website1_math}/>
+  <img  className = {websiteImage} src = {website1_math}/>
   <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website2_eluo}/>
   <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website3_gma}/>
   <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website4_classify}/>
@@ -35,7 +39,7 @@ const ThirdPage = () => (
 
       
     <Section sectionTitle = "Robotics" style = {{marginTop: '20px', minWidth: '80%'}}>
-         <div style = {{backgroundColor: 'rgb(120, 235, 177)'}}>
+         <div className = {sectionRobotics} style = {{backgroundColor: 'rgb(120, 235, 177)'}}>
           
           <div className = {sectionContent} >
             <p className = {sectionName}>Robotic Field</p>
@@ -49,6 +53,11 @@ const ThirdPage = () => (
 
           </div>
       </Section>
+    <img style = {{margin: '10px 10px 10px 10px', width: '150px'}} src = {robot1}/>
+      <img style = {{margin: '10px 10px 10px 10px', width: '150px'}} src = {robot2}/>
+        <img style = {{margin: '10px 10px 10px 10px', width: '150px'}} src = {robot3}/>
+          <img style = {{margin: '10px 10px 10px 10px', width: '150px'}} src = {robot4}/>
+      
 
 
 
