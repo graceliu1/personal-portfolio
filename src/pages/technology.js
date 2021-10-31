@@ -1,7 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import {sectionName, 
+import {sectionName,
+  sectionContainer,
   sectionContent,
   sectionAboutMe} from '../components/section.module.css'
 
@@ -39,13 +40,16 @@ const ThirdPage = () => (
 
       
     <Section sectionTitle = "Robotics" style = {{marginTop: '20px', minWidth: '80%'}}>
-         <div className = {sectionRobotics} style = {{backgroundColor: 'rgb(120, 235, 177)', minWidth: '50%'}}>
+         <div className = {sectionContainer} style = {{backgroundColor: 'rgb(120, 235, 177)', minWidth: '50%'}}>
           
           <div className = {sectionContent} >
             <p className = {sectionName}>Robotic Field</p>
             
             <p>
-            I'm a member of our schoool robotics club. 
+              One of the best parts of my robotics experience was experimenting with various builds. Through taking mechanisms apart and trying new designs, I
+              learned VEX Robotics. These pictures are combined from years on teams 5327R, 5327C, and 5327X. I've learned how to use the mechanical components 
+              and how they can be integrated with programming to create successful robots. 
+
             </p>
 
             <Link to="/"><Button linkDescription = "go back to the homepage" color = "greenButton"></Button></Link>
