@@ -7,6 +7,7 @@ import {sectionName,
 
 import {
   websiteImage,
+  sectionRobotics
 } from '../components/technology.css'
 
 import Layout from "../components/layout"
@@ -26,16 +27,15 @@ const ThirdPage = () => (
        <p className = {sectionName}>Code Garden</p>
   
 
-  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website1_math}/>
-  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website2_eluo}/>
-  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website3_gma}/>
-  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website4_classify}/>
+  <img  className = {websiteImage}style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} src = {website1_math}/>
+  <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website2_eluo}/>
+  <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website3_gma}/>
+  <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website4_classify}/>
 
 
       
     <Section sectionTitle = "Robotics" style = {{marginTop: '20px', minWidth: '80%'}}>
-         <div
-         style = {{backgroundColor: 'rgb(120, 235, 177)'}}>
+         <div style = {{backgroundColor: 'rgb(120, 235, 177)'}}>
           
           <div className = {sectionContent} >
             <p className = {sectionName}>Robotic Field</p>
