@@ -26,6 +26,9 @@ import robot2 from "../images/robot2.jpg"
 import robot3 from "../images/robot3.jpg"
 import robot4 from "../images/robot4.jpg"
 
+import team_award_picture from "../images/robotics_team1.jpg"
+import girl_powered_picture from "../images/robotics_team2.png"
+
 const ThirdPage = () => (
   <Layout>
     <Seo title="Technology" />
@@ -41,7 +44,7 @@ const ThirdPage = () => (
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {sectionRobotics}>
+      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', minWidth: '50%'>
         <div>
           <p className = {sectionName}>Robotics Field</p>
           <p>to me, the ability to code is freedom to explore and make anything i want to. 
@@ -60,28 +63,10 @@ const ThirdPage = () => (
       
     </Section>
 
-    <Section sectionTitle = "Robotics" style = {{marginTop: '20px', minWidth: '80%'}}>
-         <div className = {sectionContainer} style = {{backgroundColor: 'rgb(120, 235, 177)', minWidth: '50%'}}>
-          
-          <div className = {sectionContent} >
-            <p className = {sectionName}>Robotic Field</p>
-            
-            <p>
-              One of the best parts of my robotics experience was experimenting with various builds. Through taking mechanisms apart and trying new designs, I
-              learned VEX Robotics. These pictures are combined from years on teams 5327R, 5327C, and 5327X. I've learned how to use the mechanical components 
-              and how they can be integrated with programming to create successful robots. 
-
-            </p>
-
-            <Link to="/"><Button linkDescription = "go back to the homepage" color = "greenButton"></Button></Link>
-          </div>
-
-          </div>
-      </Section>
-    <img style = {{margin: '10px 10px 10px 10px', minWidth: '200px'}} src = {robot1}/>
-    <img style = {{margin: '10px 10px 10px 10px', minWidth: '200px'}} src = {robot2}/>
-    <img style = {{margin: '10px 10px 10px 10px', minWidth: '200px'}} src = {robot3}/>
-    <img style = {{margin: '10px 10px 10px 10px', minWidth: '200px'}} src = {robot4}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot1}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot2}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot3}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot4}/>
       
 
 
