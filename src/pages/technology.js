@@ -35,14 +35,20 @@ import girl_powered_picture from "../images/robotics_team2.png"
 const ThirdPage = () => (
   <Layout>
     <Seo title="Technology" />
-       <p className = {sectionName}>Code Garden</p>
-      <Section>
-          <div  style = {{backgroundColor: '#a4f2a0', margin: '30px'}}>
-          <p className = {sectionName}>Code Garden</p>
-          <p>&#60; a collection of some of my full-stack work is shown below. hover over the images to see details. &#62;</p>
+  
+      <Section sectionTitle = "Code Garden">
 
+          <div style = {{backgroundColor: '#c9ffd1'}}>
+            <div style = {{margin: '40px'}}>
+              <p className = {sectionName}>Code Garden</p>
+               <p>&#60; a collection of some of my full-stack work is shown below. hover over the images to see details. &#62;</p>
+
+
+            </div>
           </div>
-      </Section>
+
+        </Section>
+
          
 
   <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website1_math}/>
