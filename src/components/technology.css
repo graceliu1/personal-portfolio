@@ -1,5 +1,6 @@
 .websiteImage {
   width: 100px !important;
+  box-shadow: 0px 2px 5px rgba(155, 155, 155, 0.8);
 }
 .websiteImage:hover {
   filter: grayscale(50%);
