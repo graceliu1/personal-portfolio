@@ -38,7 +38,28 @@ const ThirdPage = () => (
   <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website4_classify}/>
 
 
+        
+    <Section sectionTitle = "Robotics">
+
+      <div className = {sectionRobotics}>
+        <div>
+          <p className = {sectionName}>Robotics Field</p>
+          <p>to me, the ability to code is freedom to explore and make anything i want to. 
+          </p>
+          
+          <p>
+             One of the best parts of my robotics experience was experimenting with various builds. Through taking mechanisms apart and trying new designs, I
+              learned VEX Robotics. These pictures are combined from years on teams 5327R, 5327C, and 5327X. I've learned how to use the mechanical components 
+              and how they can be integrated with programming to create successful robots. 
+
+          </p>
+
+          <Link to="/page-2/"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
+        </div>
+      </div>
       
+    </Section>
+
     <Section sectionTitle = "Robotics" style = {{marginTop: '20px', minWidth: '80%'}}>
          <div className = {sectionContainer} style = {{backgroundColor: 'rgb(120, 235, 177)', minWidth: '50%'}}>
           
@@ -57,10 +78,10 @@ const ThirdPage = () => (
 
           </div>
       </Section>
-    <img style = {{margin: '10px 10px 10px 10px', width: '200px'}} src = {robot1}/>
-    <img style = {{margin: '10px 10px 10px 10px', width: '200px'}} src = {robot2}/>
-    <img style = {{margin: '10px 10px 10px 10px', width: '200px'}} src = {robot3}/>
-    <img style = {{margin: '10px 10px 10px 10px', width: '200px'}} src = {robot4}/>
+    <img style = {{margin: '10px 10px 10px 10px', minWidth: '200px'}} src = {robot1}/>
+    <img style = {{margin: '10px 10px 10px 10px', minWidth: '200px'}} src = {robot2}/>
+    <img style = {{margin: '10px 10px 10px 10px', minWidth: '200px'}} src = {robot3}/>
+    <img style = {{margin: '10px 10px 10px 10px', minWidth: '200px'}} src = {robot4}/>
       
 
 
