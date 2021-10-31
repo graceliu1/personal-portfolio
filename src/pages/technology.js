@@ -29,6 +29,9 @@ import robot4 from "../images/robot4.jpg"
 import team_award_picture from "../images/robotics_team1.jpg"
 import girl_powered_picture from "../images/robotics_team2.png"
 
+/**
+          <Link to="/page-2/"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
+          **/
 const ThirdPage = () => (
   <Layout>
     <Seo title="Technology" />
@@ -44,7 +47,7 @@ const ThirdPage = () => (
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', minWidth: '50%'>
+      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', minWidth: '50%'}}>
         <div>
           <p className = {sectionName}>Robotics Field</p>
           <p>to me, the ability to code is freedom to explore and make anything i want to. 
@@ -57,7 +60,6 @@ const ThirdPage = () => (
 
           </p>
 
-          <Link to="/page-2/"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
         </div>
       </div>
       
