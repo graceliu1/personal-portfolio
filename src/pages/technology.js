@@ -15,7 +15,7 @@ import Button from '../components/button'
 import Seo from "../components/seo"
 
 import figureBear from "../images/portfolio_bear.png"
-import math from "../images/website1_math.PNG"
+import math from "../images/website1.PNG"
 
 const ThirdPage = () => (
   <Layout>
