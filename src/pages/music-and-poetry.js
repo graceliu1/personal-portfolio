@@ -47,7 +47,7 @@ const FourthPage = () => (
     
     <Section sectionTitle = "Music">
 
-      <div style = {{backgroundColor: '#ffde85', maxWidth: '40%'}}>
+      <div style = {{backgroundColor: 'blue', maxWidth: '40%'}}>
         <div style = {{margin: '30px'}}>
           <p className = {sectionName}>Music</p>
           
@@ -62,6 +62,7 @@ const FourthPage = () => (
 
         </div>
       </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UWkF0sGzjYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
     </Section>
 
