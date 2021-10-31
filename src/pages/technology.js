@@ -15,7 +15,11 @@ import Button from '../components/button'
 import Seo from "../components/seo"
 
 import figureBear from "../images/portfolio_bear.png"
-import math from "../images/website1.PNG"
+import website1_math from "../images/website1_math.png"
+import website2_eluo from "../images/website2_eluo.png"
+import website3_gma from "../images/website3_gma.png"
+import website4_classify from "../images/website4_classify.png"
+
 
 const ThirdPage = () => (
   <Layout>
@@ -23,6 +27,13 @@ const ThirdPage = () => (
        <p>Hello</p>
           
   <img src = {figureBear} />
+
+  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website1_math}/>
+      <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website2_eluo}/>
+      <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website3_gma}/>
+      <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website4_classify}/>
+
+
       
     <Section sectionTitle = "Robotics" style = {{marginTop: '20px'}}>
          <div className = {sectionAboutMe}
