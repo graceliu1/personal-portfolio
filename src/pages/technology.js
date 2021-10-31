@@ -34,7 +34,7 @@ const ThirdPage = () => (
 
       
     <Section sectionTitle = "Robotics" style = {{marginTop: '20px', minWidth: '80%'}}>
-         <div className = {sectionRobotics}
+         <div
          style = {{backgroundColor: 'rgb(120, 235, 177)'}}>
           
           <div className = {sectionContent} >
