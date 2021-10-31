@@ -23,7 +23,7 @@ const FourthPage = () => (
    
     <Section sectionTitle = "Poetry">
        <img src = {three_names_poem} style = {{minWidth:'150px'}}/>
-       <img src = {somnium_poem} style = {{minWidth:'150px'}}/>
+       
 
       <div style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
         <div style = {{margin: '30px'}}>
@@ -43,6 +43,7 @@ const FourthPage = () => (
     </Section>
     <img src = {pottery_memoirs_poem} style = {{minWidth:'150px'}}/>
      <img src = {inception_poem} style = {{minWidth:'150px'}}/>
+<img src = {somnium_poem} style = {{minWidth:'150px'}}/>
     
     <Section sectionTitle = "Music">
 
