@@ -36,9 +36,11 @@ const ThirdPage = () => (
   <Layout>
     <Seo title="Technology" />
        <p className = {sectionName}>Code Garden</p>
-  <Section> <div style = {{backgroundColor: 'green', margin: '15px'}}>
-    <p>a collection of some of my full-stack work is shown below. hover over the images to see details.</p>
-    </div></Section>
+       <Section style = {{marginTop: '0px'}}> 
+          <div style = {{backgroundColor: 'green', margin: '0px, 15px, 15px, 15px'}}>
+          <p>&#60 a collection of some of my full-stack work is shown below. hover over the images to see details. &#62</p>
+        </div>
+      </Section>
 
   <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website1_math}/>
   <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website2_eluo}/>
@@ -49,8 +51,8 @@ const ThirdPage = () => (
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '50%'}}>
-        <div style = {{margin: '15px'}}>
+      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
+        <div style = {{margin: '30px'}}>
           <p className = {sectionName}>Robotics Field</p>
           
           <p>
