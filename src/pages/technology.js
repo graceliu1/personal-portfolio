@@ -28,10 +28,10 @@ const ThirdPage = () => (
           
   <img src = {figureBear} />
 
-  <img className = {websiteImage} src = {website1_math}/>
-      <img  className = {websiteImage} src = {website2_eluo}/>
-      <img  className = {websiteImage} src = {website3_gma}/>
-      <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website4_classify}/>
+  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '300px'}} className = {websiteImage} src = {website1_math}/>
+  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '300px'}} className = {websiteImage} src = {website2_eluo}/>
+  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '300px'}} className = {websiteImage} src = {website3_gma}/>
+  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '300px'}} className = {websiteImage} src = {website4_classify}/>
 
 
       
