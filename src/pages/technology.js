@@ -14,7 +14,6 @@ import Section from '../components/section'
 import Button from '../components/button'
 import Seo from "../components/seo"
 
-import figureBear from "../images/portfolio_bear.png"
 import website1_math from "../images/website1_math.png"
 import website2_eluo from "../images/website2_eluo.png"
 import website3_gma from "../images/website3_gma.png"
@@ -24,19 +23,18 @@ import website4_classify from "../images/website4_classify.png"
 const ThirdPage = () => (
   <Layout>
     <Seo title="Technology" />
-       <p>Hello</p>
-          
-  <img src = {figureBear} />
+       <p className = {sectionName}>Code Garden</p>
+  
 
-  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '300px'}} className = {websiteImage} src = {website1_math}/>
-  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '300px'}} className = {websiteImage} src = {website2_eluo}/>
-  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '300px'}} className = {websiteImage} src = {website3_gma}/>
-  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '300px'}} className = {websiteImage} src = {website4_classify}/>
+  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website1_math}/>
+  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website2_eluo}/>
+  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website3_gma}/>
+  <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website4_classify}/>
 
 
       
-    <Section sectionTitle = "Robotics" style = {{marginTop: '20px'}}>
-         <div className = {sectionAboutMe}
+    <Section sectionTitle = "Robotics" style = {{marginTop: '20px', minWidth: '80%'}}>
+         <div className = {sectionRobotics}
          style = {{backgroundColor: 'rgb(120, 235, 177)'}}>
           
           <div className = {sectionContent} >
