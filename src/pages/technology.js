@@ -14,10 +14,10 @@ import Section from '../components/section'
 import Button from '../components/button'
 import Seo from "../components/seo"
 
-import website1_math from "../images/website1-math.PNG"
-import website2_eluo from "../images/website2-eluo.PNG"
-import website3_gma from "../images/website3-gma.PNG"
-import website4_classify from "../images/website4-classify.PNG"
+import website1_math from "../images/website1_math.png"
+import website2_eluo from "../images/website2_eluo.png"
+import website3_gma from "../images/website3_gma.png"
+import website4_classify from "../images/website4_classify.png"
 
 const ThirdPage = () => (
   <Layout>
