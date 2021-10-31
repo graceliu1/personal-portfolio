@@ -16,20 +16,17 @@ import Section from '../components/section'
 import Button from '../components/button'
 import Seo from "../components/seo"
 
-import website1_math from "../images/website1_math.png"
-import website2_eluo from "../images/website2_eluo.png"
-import website3_gma from "../images/website3_gma.png"
-import website4_classify from "../images/website4_classify.png"
-
-import robot1 from "../images/robot1.png"
-import robot2 from "../images/robot2.jpg"
-import robot3 from "../images/robot3.jpg"
-import robot4 from "../images/robot4.jpg"
+import three_names_poem from "../images/three_names.png"
+import pottery_memoirs_poem from "../images/pottery_memoirs.png"
+import somnium_poem from "../images/somnium.png"
+import inception_poem from "../images/inception.png"
 
 const FourthPage = () => (
   <Layout>
     <Seo title="Music and Poetry" />
-       
+    
+    <img src = {{three_names_poem}} />
+     <img src = {{somnium_poem}} />
     <Section sectionTitle = "Poetry">
 
       <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
@@ -47,8 +44,9 @@ const FourthPage = () => (
 
         </div>
       </div>
-      
     </Section>
+    <img src = {{pottery_memoirs_poem}} />
+     <img src = {{inception_poem}} />
     
     <Section sectionTitle = "Music">
 
