@@ -101,8 +101,8 @@ const Layout = ({ pageTitle, children }) => {
               </Link>
             </li>
             <li className={navLinkItem}>
-              <Link to="/community-art" className={navLinkText}>
-                Community
+              <Link to="/arts" className={navLinkText}>
+                Arts
               </Link>
             </li>
           </ul>
@@ -117,7 +117,6 @@ const Layout = ({ pageTitle, children }) => {
       <div sectionName = "Footer" style = {{
         fontFamily: `'Cabin', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif`,
         fontSize: '20px',
-        fontWeight: 'bold',
         marginTop: '30px',
         marginBottom: '50px',
         textAlign: 'center',
