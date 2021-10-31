@@ -26,7 +26,7 @@ const FourthPage = () => (
     <img src = {pottery_memoirs_poem} style = {{minWidth:'150px'}}/>
        
 
-      <div style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
+      <div style = {{backgroundColor: '#ffde85', maxWidth: '50%'}}>
         <div style = {{margin: '30px'}}>
           <p className = {sectionName}>Poetry</p>
           
