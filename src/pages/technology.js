@@ -22,12 +22,8 @@ import website4_classify from "../images/website4_classify.PNG"
 const ThirdPage = () => (
   <Layout>
     <Seo title="Technology" />
-       <p>Hello?</p>
+       <p>Hello</p>
             
-      <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website1_math}/>
-      <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website2_eluo}/>
-      <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website3_gma}/>
-      <img style = {{boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}} className = {websiteImage} src = {website4_classify}/>
       
     <Section sectionTitle = "Robotics" style = {{marginTop: '20px'}}>
          <div className = {sectionAboutMe}
