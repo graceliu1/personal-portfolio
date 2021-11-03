@@ -47,23 +47,28 @@ const FourthPage = () => (
     
     <Section sectionTitle = "Music">
 
-      <div style = {{backgroundColor: 'blue', maxWidth: '40%'}}>
+      <div style = {{backgroundColor: '#bcdce8', maxWidth: '40%', marginRight: '30px'}}>
         <div style = {{margin: '30px'}}>
           <p className = {sectionName}>Music</p>
           
-          <p> Why do I write poetry? It started as a habit in middle school. For me, poetry is how I express curious thoughts in 
-          curious formats. There's a thousand small stories that I want to tell through words. 
-
+          <p>  Whether quietly mouthing the lyrics to the newest pop hit at my desk or belting out solo Adele concerts in the shower, 
+            I am constantly singing. Although I might not hit the high notes every time, the carefree act of singing brings me unadulterated 
+            joy. My favorite songs capture fleeting snapshots of daily life; when I hear Fight Song, I am immediately reminded of busy 
+            summer days spent eating persimmons and running errands with my mother. 
           </p>
           <p> 
-          My favorite poets are: Christina Rossetti and Pablo Neruda. 
+              
+         The memories evoked from different songs stay with me long after the first time I hear them. To my grandparents, 
+           recordings of songs in Mandarin cross thousands of miles to reach them in China. To my friends, crooning Spanish pop
+           hits bring back memories of loud karaoke nights at our houses. When I sing, I can almost taste the emotion behind every word. 
+           Singing is the bridge into my personal photo album, where thousands of half-forgotten melodies will forever dance in my mind. 
+
           
           </p>
 
         </div>
-      </div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UWkF0sGzjYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
+        </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VB9TanDtUQ0?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </Section>
 
 
