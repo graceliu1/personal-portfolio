@@ -27,7 +27,7 @@ const FourthPage = () => (
        
 
       <div style = {{backgroundColor: '#ffde85', maxWidth: '50%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}}>
-        <div style = {{margin: '30px'}}>
+        <div style = {{margin: '40px'}}>
           <p className = {sectionName}>Poetry</p>
           
           <p> Why do I write poetry? It started as a habit in middle school. For me, poetry is how I express curious thoughts in 
@@ -48,17 +48,22 @@ const FourthPage = () => (
     <Section sectionTitle = "Music">
 
       <div style = {{backgroundColor: '#bcdce8', maxWidth: '50%', marginRight: '30px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}}>
-        <div style = {{margin: '30px'}}>
+        <div style = {{margin: '40px'}}>
           <p className = {sectionName}>Music</p>
           
           <p>  Whether quietly mouthing the lyrics to the newest pop hit at my desk or belting out solo Adele concerts in the shower, 
-            I am constantly singing. My favorite songs capture fleeting snapshots of daily life; when I hear Fight Song, I am immediately reminded of busy 
+            I am constantly singing. 
+          </p>
+          <p>My favorite songs capture fleeting snapshots of daily life; when I hear Fight Song, I am immediately reminded of busy 
             summer days spent eating persimmons and running errands with my mother. 
           </p>
           <p> 
               
          The memories evoked from different songs stay with me long after the first time I hear them. To my friends, crooning Spanish pop
            hits bring back memories of loud karaoke nights at our houses. When I sing, I can almost taste the emotion behind every word. 
+         </p>
+          <p>
+           
            Singing is the bridge into my personal photo album, where thousands of half-forgotten melodies will forever dance in my mind. 
 
           
