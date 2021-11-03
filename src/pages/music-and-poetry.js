@@ -26,7 +26,7 @@ const FourthPage = () => (
     <img src = {pottery_memoirs_poem} style = {{minWidth:'150px'}}/>
        
 
-      <div style = {{backgroundColor: '#ffde85', maxWidth: '50%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}}>
+      <div style = {{backgroundColor: '#ffde85', maxWidth: '35%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}}>
         <div style = {{margin: '40px'}}>
           <p className = {sectionName}>Poetry</p>
           
@@ -35,7 +35,9 @@ const FourthPage = () => (
 
           </p>
           <p> 
-          My favorite poets are: Christina Rossetti and Pablo Neruda. 
+          Favorite poems/poem collections: "Remember" (Christina Rossetti), "Goblin Market" (Christina Rossetti), "The Rhodora" (
+            Ralph Waldo Emerson),
+            <em>Veinte poemas de amor y una canción desesperada</em> (Pablo Neruda)
           
           </p>
 
