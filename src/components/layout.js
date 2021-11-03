@@ -97,7 +97,7 @@ const Layout = ({ pageTitle, children }) => {
             </li>
             <li className={navLinkItem}>
               <Link to="/music-and-poetry" className={navLinkText}>
-                Arts
+                Music and Poetry
               </Link>
             </li>
           </ul>
