@@ -80,7 +80,7 @@ const ThirdPage = () => (
       <Section sectionTitle = "Code Garden">
 
           <div style = {{backgroundColor: '#c9ffd1'}}>
-            <div style = {{margin: '40px'}}>
+            <div style = {{margin: '50px'}}>
               <p className = {sectionName}>Code Garden</p>
                <p>&#60; a collection of some of my full-stack work is shown below. hover over the images to see details. &#62;</p>
 
