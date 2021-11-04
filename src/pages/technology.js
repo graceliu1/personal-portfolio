@@ -7,7 +7,8 @@ import {sectionName,
   sectionAboutMe} from '../components/section.module.css'
 
 import {
-  websiteImage,
+  websiteSnippet,
+  websiteDescription,
   sectionRobotics
 } from '../components/technology.module.css'
 
@@ -58,9 +59,13 @@ const ThirdPage = () => (
 
         </Section>
 
-         
+  <div className = {websiteSnippet}>
+    <img src = {website1_math}/>
+      <p className = {websiteDescription}>I built this website for the school math department. </p>
+  </div>
 
-  <img className = {websiteImage} src = {website1_math}/>
+
+  
   <img className = {websiteImage} src = {website2_eluo}/>
   <img className = {websiteImage} src = {website3_gma}/>
   <img className = {websiteImage} src = {website4_classify}/>
