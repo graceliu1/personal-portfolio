@@ -1,10 +1,30 @@
-.websiteImage {
+.websiteSnippet{
+  position: relative;
   margin: 10px 15px 10px 15px;
-  max-width: 50%;
+  max-width: 45%;
   box-shadow: 0px 2px 5px rgba(155, 155, 155, 0.8);
 }
-.websiteImage:hover {
-  filter: grayscale(50%);
+.websiteSnippet:hover .websiteDescription{
+  visibility: visible;
+  opacity: 1;
+  
+}
+/*
+filter: grayscale(50%);
+*/
+
+.websiteDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+
 }
 
 .sectionRobotics {
