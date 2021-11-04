@@ -5,10 +5,14 @@
 }
 
 .websiteImage {
+   margin: 10px 15px 10px 15px;
    max-width: 40% !important;
    box-shadow: 0px 2px 5px rgba(155, 155, 155, 0.8);
 }
 
+.websiteImage:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
 .websiteSnippet:hover .websiteDescription{
   background: rgba(0, 0, 0, 0.9);
   visibility: visible;
