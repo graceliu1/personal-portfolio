@@ -1,6 +1,7 @@
 .websiteSnippet{
   position: relative;
   margin: 10px 15px 10px 15px;
+  z-index: -1000;
  
 }
 
