@@ -8,6 +8,7 @@ import {sectionName,
 
 import {
   websiteSnippet,
+  websiteImage,
   websiteDescription,
   sectionRobotics
 } from '../components/technology.module.css'
@@ -60,11 +61,24 @@ const ThirdPage = () => (
         </Section>
 
   <div className = {websiteSnippet}>
-    <img src = {website1_math}/>
-      <p className = {websiteDescription}>I built this website for the school math department. </p>
+    <img className = {websiteImage} src = {website1_math}/>
+    <p className = {websiteDescription}>I built this website for the school math department. </p>
   </div>
 
+  <div className = {websiteSnippet}>
+    <img className = {websiteImage} src = {website2_eluo}/>
+    <p className = {websiteDescription}>I built this website for the school math department. </p>
+  </div>
 
+  <div className = {websiteSnippet}>
+    <img className = {websiteImage} src = {website3_gma}/>
+    <p className = {websiteDescription}>I built this website for the school math department. </p>
+  </div>
+
+  <div className = {websiteSnippet}>
+    <img className = {websiteImage} src = {website4_classify}/>
+    <p className = {websiteDescription}>I built this website for the school math department. </p>
+  </div>
   
   <img className = {websiteSnippet} src = {website2_eluo}/>
   <img className = {websiteSnippet} src = {website3_gma}/>
