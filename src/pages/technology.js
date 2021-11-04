@@ -32,6 +32,15 @@ import girl_powered_picture from "../images/robotics_team2.png"
 /**
           <Link to="/page-2/"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
           **/
+
+
+/***
+
+old code for website photos:
+style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '50%'}} 
+
+
+***/
 const ThirdPage = () => (
   <Layout>
     <Seo title="Technology" />
@@ -51,10 +60,10 @@ const ThirdPage = () => (
 
          
 
-  <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '50%'}} className = {websiteImage} src = {website1_math}/>
-  <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxWidth: '50%'}} className = {websiteImage} src = {website2_eluo}/>
-  <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website3_gma}/>
-  <img style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)', maxHeight: '300px'}} className = {websiteImage} src = {website4_classify}/>
+  <img className = {websiteImage} src = {website1_math}/>
+  <img className = {websiteImage} src = {website2_eluo}/>
+  <img className = {websiteImage} src = {website3_gma}/>
+  <img className = {websiteImage} src = {website4_classify}/>
 
 
         
