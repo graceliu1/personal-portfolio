@@ -60,6 +60,8 @@ const ThirdPage = () => (
 
         </Section>
 
+  <div>
+                 
   <div className = {websiteSnippet}>
     <img className = {websiteImage} src = {website1_math}/>
     <p className = {websiteDescription}>I built this website for the school math department. </p>
@@ -69,6 +71,9 @@ const ThirdPage = () => (
     <img className = {websiteImage} src = {website2_eluo}/>
     <p className = {websiteDescription}>I built this website for the school math department. </p>
   </div>
+  </div>
+
+  <div>
 
   <div className = {websiteSnippet}>
     <img className = {websiteImage} src = {website3_gma}/>
@@ -79,10 +84,8 @@ const ThirdPage = () => (
     <img className = {websiteImage} src = {website4_classify}/>
     <p className = {websiteDescription}>I built this website for the school math department. </p>
   </div>
+</div>
   
-  <img className = {websiteSnippet} src = {website2_eluo}/>
-  <img className = {websiteSnippet} src = {website3_gma}/>
-  <img className = {websiteSnippet} src = {website4_classify}/>
 
 
         
