@@ -9,7 +9,7 @@ import {sectionName,
 import {
   websiteImage,
   sectionRobotics
-} from '../components/technology.css'
+} from '../components/technology.module.css'
 
 import Layout from "../components/layout"
 import Section from '../components/section'
