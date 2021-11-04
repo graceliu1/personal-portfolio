@@ -43,24 +43,10 @@ style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155,
 
 
 ***/
-const ThirdPage = () => (
-  <Layout>
-    <Seo title="Technology" />
-  
-      <Section sectionTitle = "Code Garden">
 
-          <div style = {{backgroundColor: '#c9ffd1'}}>
-            <div style = {{margin: '40px'}}>
-              <p className = {sectionName}>Code Garden</p>
-               <p>&#60; a collection of some of my full-stack work is shown below. hover over the images to see details. &#62;</p>
+/**
 
-
-            </div>
-          </div>
-
-        </Section>
-
-  <div>
+ <div>
                  
   <div className = {websiteSnippet}>
     <img className = {websiteImage} src = {website1_math}/>
@@ -86,6 +72,29 @@ const ThirdPage = () => (
   </div>
 </div>
   
+  */
+const ThirdPage = () => (
+  <Layout>
+    <Seo title="Technology" />
+  
+      <Section sectionTitle = "Code Garden">
+
+          <div style = {{backgroundColor: '#c9ffd1'}}>
+            <div style = {{margin: '40px'}}>
+              <p className = {sectionName}>Code Garden</p>
+               <p>&#60; a collection of some of my full-stack work is shown below. hover over the images to see details. &#62;</p>
+
+
+            </div>
+          </div>
+
+        </Section>
+
+  <a href = "dublinhighmath.com"><img className = {websiteImage} src = {website1_math} </a>
+  <a href = "eluo.herokuapp.com"><img className = {websiteImage} src = {website2_eluo} </a>
+  <a href = "girlsmathassociation.com"><img className = {websiteImage} src = {website3_gma} </a>
+  <a href = "classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify} </a>
+ 
 
 
         
