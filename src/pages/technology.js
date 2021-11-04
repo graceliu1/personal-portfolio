@@ -90,7 +90,7 @@ const ThirdPage = () => (
 
         </Section>
 
-  <a href = "dublinhighmath.com"><img className = {websiteImage} src = {website1_math}/> </a>
+  <a href = "https://dublinhighmath.com"><img className = {websiteImage} src = {website1_math}/> </a>
   <a href = "eluo.herokuapp.com"><img className = {websiteImage} src = {website2_eluo}/> </a>
   <a href = "girlsmathassociation.com"><img className = {websiteImage} src = {website3_gma}/> </a>
   <a href = "classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
