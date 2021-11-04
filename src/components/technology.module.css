@@ -10,6 +10,7 @@
 }
 
 .websiteSnippet:hover .websiteDescription{
+  background: rgba(0, 0, 0, 0.9);
   visibility: visible;
   opacity: 1;
   
