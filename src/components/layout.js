@@ -106,7 +106,7 @@ const Layout = ({ pageTitle, children }) => {
           
       </nav>
       
-      <div style = {{paddingTop: '60px'}} className={container}>
+      <div style = {{top: '60px', position: 'relative'}} className={container}>
       {children}
 
       <div sectionName = "Footer" style = {{
