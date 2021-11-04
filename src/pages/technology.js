@@ -82,7 +82,11 @@ const ThirdPage = () => (
           <div style = {{backgroundColor: '#c9ffd1'}}>
             <div style = {{margin: '50px'}}>
               <p className = {sectionName}>Code Garden</p>
-               <p>&#60; a collection of some of my full-stack work is shown below. hover over the images to see details. &#62;</p>
+               <p>&#60; !-- a collection of some of my full-stack work is shown below. i build sites for various purposes, but 
+i love incorporating visual design aspects. :)&#62;</p>
+              <p> click on the website sections below to learn more.
+  
+              </p>
 
 
             </div>
@@ -91,16 +95,16 @@ const ThirdPage = () => (
         </Section>
 
   <a href = "https://dublinhighmath.com"><img className = {websiteImage} src = {website1_math}/> </a>
-  <a href = "eluo.herokuapp.com"><img className = {websiteImage} src = {website2_eluo}/> </a>
-  <a href = "girlsmathassociation.com"><img className = {websiteImage} src = {website3_gma}/> </a>
-  <a href = "classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
+  <a href = "https://eluo.herokuapp.com"><img className = {websiteImage} src = {website2_eluo}/> </a>
+  <a href = "https://girlsmathassociation.com"><img className = {websiteImage} src = {website3_gma}/> </a>
+  <a href = "https://classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
  
 
 
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '70%'}}>
+      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '100%'}}>
         <div style = {{margin: '30px'}}>
           <p className = {sectionName}>Robotics Field</p>
           
@@ -117,9 +121,9 @@ const ThirdPage = () => (
     </Section>
     <img style = {{maxWidth: '500px'}} src = {team_award_picture}/>
 
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot1}/>
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot2}/>
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot3}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '270px'}} src = {robot1}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '270px'}} src = {robot2}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '270px'}} src = {robot3}/>
     <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot4}/>
       
 
