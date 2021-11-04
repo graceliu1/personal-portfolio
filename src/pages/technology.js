@@ -66,9 +66,9 @@ const ThirdPage = () => (
 
 
   
-  <img className = {websiteImage} src = {website2_eluo}/>
-  <img className = {websiteImage} src = {website3_gma}/>
-  <img className = {websiteImage} src = {website4_classify}/>
+  <img className = {websiteSnippet} src = {website2_eluo}/>
+  <img className = {websiteSnippet} src = {website3_gma}/>
+  <img className = {websiteSnippet} src = {website4_classify}/>
 
 
         
