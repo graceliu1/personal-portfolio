@@ -1,5 +1,6 @@
 .websiteImage {
-  width: 100px !important;
+  margin: 10px 15px 10px 15px;
+  max-width: 50%;
   box-shadow: 0px 2px 5px rgba(155, 155, 155, 0.8);
 }
 .websiteImage:hover {
