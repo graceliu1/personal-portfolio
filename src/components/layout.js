@@ -86,9 +86,14 @@ const Layout = ({ pageTitle, children }) => {
           <div style = {{alignSelf: 'center'}}>
           <ul className={navLinks}>
             <li className={navLinkItem}>
-              <Link to="/" className={navLinkText} className={active}>
+              <Link to="/" className={navLinkText}>
                 Home
               </Link>
+            </li>
+            <li className = {navLinkItem}>
+                <Link to="/" className={navLinkText}>
+                  Community
+                </Link>
             </li>
             <li className={navLinkItem}>
               <Link to="/technology" className={navLinkText}>
