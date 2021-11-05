@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import {sectionName,
   sectionContainer,
   sectionContent,
+  section3,
   sectionAboutMe} from '../components/section.module.css'
 
 import {
@@ -131,8 +132,8 @@ const ThirdPage = () => (
     </Section>
     <img style = {{maxWidth: '500px'}} src = {team_award_picture}/>
 
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '270px'}} src = {robot1}/>
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '270px'}} src = {robot2}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '500px'}} src = {robot1}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '500px'}} src = {robot2}/>
     <img style = {{margin: '10px 10px 10px 10px', maxHeight: '270px'}} src = {robot3}/>
     <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot4}/>
       
@@ -142,7 +143,15 @@ const ThirdPage = () => (
 
     <Section sectionTitle = "Research">
        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-       
+       <div className = {section3} style = {{maxWidth: '25%}}>
+           <div style = {{margin: '40px'}}>
+             <p className = {sectionName}>Research</p>
+             <p>This summer, I completed research on pnuemonia classification with transfer learning at the University of Connecticut.</p>
+             <p>My project was advised by Professor Shengli Zhou and Professor Jinbo Bi. At the conclusion of the program,
+               I gave a formal presentation. I independently wrote a manuscript for a research paper on my findings in the next two months. 
+               It's currently under review at the Journal of Young Investigators.</p>
+           </div>
+       </div>
     </Section>
 
   </Layout>
