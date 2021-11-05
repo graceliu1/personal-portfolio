@@ -31,27 +31,34 @@ const FifthPage = () => (
           <img style = {{width: '70%'}} src = {gma_award_ceremony_picture} />
           <div className = {section2}>
              <div>
-                <p className = {sectionName}>Girls Math Association Math Contest</p>
+                <p className = {sectionName}>Girls Math Association - Annual Math Contest</p>
                 <p>
                   In the summers of 2020 and spring of 2021, I organized an online 
                   math contest for girls in grades 5-8! We had a total of over 200 participants.
                   
                 </p>
                 <p>
-                    We shifted our plans for the GMA Math Contest to a virtual format 
+                    Inspired by a similar event I attended when I was in middle school, 
+                      my team and I decided to make this a virtual experience due to COVID-19.  
                     
                     
                 </p>
+                <p><small>photos are used with parental permission, last names removed for privacy</small></p>
+                
              </div>
           </div>
       </Section>
-      <div style = {{backgroundColor: 'light pink', height: '70px', width: '100%'}}>
-        <a href = 'https://www.independentnews.com/news/high-school-hosts-online-math-contest-for-girls/article_58ce4406-c63b-11ea-bd6a-fb38b2a180e9.html'><p>a news article interview about our event in the local news!</p></a>
-      </div>
+      <Section> 
+            <div className = {section3} style = {{width: '100%'}}>
+                 <a href = 'https://www.independentnews.com/news/high-school-hosts-online-math-contest-for-girls/article_58ce4406-c63b-11ea-bd6a-fb38b2a180e9.html'><p>a news article interview about our event in the local news!</p></a>
+            </div>
+      </Section>
+        
       <img style = {{width: '100%'}}src = {shield_staff_meeting_picture} />
       <Section sectionTitle = "Dublin Shield">
-          <div className = {section3}>
-            
+          <div className = {section5}>
+            <p className = {sectionName}></p>
+            <p>A staff meeting at lunch for the Dublin Shield -- my high school's student newspaper. </p>
           </div>
       </Section>
   
