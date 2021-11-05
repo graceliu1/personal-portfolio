@@ -82,7 +82,7 @@ const ThirdPage = () => (
     <Seo title="Technology" />
   
       <Section sectionTitle = "Code Garden">
-          <img className = {flowerImage} src = {{flower_1}}/>
+          <img className = {flowerImage} src = {flower_1}/>
           <div style = {{backgroundColor: '#c9ffd1'}}>
             <div style = {{margin: '50px'}}>
               <p className = {sectionName}>Code Garden</p>
@@ -96,7 +96,7 @@ const ThirdPage = () => (
 
             </div>
           </div>
-          <img className = {flowerImage} src = {{flower_2}}/>
+          <img className = {flowerImage} src = {flower_2}/>
         </Section>
 
   <div style = {{display: 'flex'}}>
