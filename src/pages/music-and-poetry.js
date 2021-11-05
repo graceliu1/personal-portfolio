@@ -44,8 +44,11 @@ const FourthPage = () => (
         </div>
       </div>
     </Section>
+
+    <div>
      <img src = {inception_poem} style = {{minWidth:'250px'}}/>
-<img src = {somnium_poem} style = {{minWidth:'250px'}}/>
+    <img src = {somnium_poem} style = {{minWidth:'250px'}}/>
+    </div>
     
     <Section sectionTitle = "Music">
 
@@ -74,11 +77,15 @@ const FourthPage = () => (
         </div>
         </div>
     <div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VB9TanDtUQ0?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/9Ky44OeyLac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OJFxZJC057I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
     </div>
+    
 </Section>
-
+<div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VB9TanDtUQ0?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9Ky44OeyLac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
     
 
