@@ -148,8 +148,7 @@ const ThirdPage = () => (
              <p className = {sectionName}>Research</p>
              <p>This summer, I completed research on pnuemonia classification with transfer learning at the University of Connecticut.</p>
              <p>My project was advised by Professor Shengli Zhou and Professor Jinbo Bi. At the conclusion of the program,
-               I gave a formal presentation. I independently wrote a manuscript for a research paper on my findings in the next two months. 
-               It's currently under review at the Journal of Young Investigators.</p>
+               I gave a formal presentation, linked at the right.</p>
            </div>
        </div>
     </Section>
