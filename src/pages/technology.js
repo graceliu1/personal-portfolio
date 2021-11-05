@@ -49,7 +49,7 @@ style = {{margin: '10px 15px 10px 15px', boxShadow: ' 0px 2px 5px rgba(155, 155,
 ***/
 
 /**
-
+  <img src = {flower_1} />
  <div>
                  
   <div className = {websiteSnippet}>
