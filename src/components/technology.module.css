@@ -11,8 +11,9 @@
 }
 
 .websiteImage:hover {
-  background: rgba(0, 0, 0, 0.6);
+  filter: grayscale(80%);
 }
+/*
 .websiteSnippet:hover .websiteDescription{
   background: rgba(0, 0, 0, 0.9);
   visibility: visible;
