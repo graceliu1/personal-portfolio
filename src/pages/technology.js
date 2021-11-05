@@ -10,7 +10,8 @@ import {
   websiteSnippet,
   websiteImage,
   websiteDescription,
-  sectionRobotics
+  sectionRobotics,
+  flowerImage
 } from '../components/technology.module.css'
 
 import Layout from "../components/layout"
@@ -30,6 +31,9 @@ import robot4 from "../images/robot4.jpg"
 
 import team_award_picture from "../images/robotics_team1.jpg"
 import girl_powered_picture from "../images/robotics_team2.png"
+
+import flower_1 from "../images/flower_1.png"
+import flower_2 from "../images/flower_2.png"
 
 /**
           <Link to="/page-2/"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
@@ -78,26 +82,32 @@ const ThirdPage = () => (
     <Seo title="Technology" />
   
       <Section sectionTitle = "Code Garden">
-
+          <img className = {flowerImage} src = {{flower_1}}/>
           <div style = {{backgroundColor: '#c9ffd1'}}>
             <div style = {{margin: '50px'}}>
               <p className = {sectionName}>Code Garden</p>
-               <p>&#60; !-- a collection of some of my full-stack work is shown below. i build sites for various purposes, but 
-i love incorporating visual design aspects. :)&#62;</p>
-              <p> click on the website sections below to learn more.
-  
-              </p>
+               <p>Welcome to my "garden" of code... in the form of websites! I enjoy building sites, both for fun and for projects.
+               </p>
+              <p>Last year, I embarked on a journey to learn full-stack developement. My skills are a work-in-progress 
+              (including this website) and I hope to continue improving in the near future. </p>
+               <p> And if you haven't noticed already, I like encorporating some visual design aspects into my work as well. Click on the website 
+              previews to visit the links. Stop a while, smell the flowers!</p>
 
 
             </div>
           </div>
-
+          <img className = {flowerImage} src = {{flower_2}}/>
         </Section>
 
-  <a href = "https://dublinhighmath.com"><img className = {websiteImage} src = {website1_math}/> </a>
-  <a href = "https://eluo.herokuapp.com"><img className = {websiteImage} src = {website2_eluo}/> </a>
-  <a href = "https://girlsmathassociation.com"><img className = {websiteImage} src = {website3_gma}/> </a>
-  <a href = "https://classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
+  <div style = {{display: 'flex'}}>
+    <a href = "https://dublinhighmath.com"><img className = {websiteImage} src = {website1_math}/> </a>
+    <a href = "https://eluo.herokuapp.com"><img className = {websiteImage} src = {website2_eluo}/> </a>
+  </div>
+  
+  <div style = {{display: 'flex'}}>
+    <a href = "https://girlsmathassociation.com"><img className = {websiteImage} src = {website3_gma}/> </a>
+    <a href = "https://classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
+  </div>
  
 
 
@@ -130,7 +140,10 @@ i love incorporating visual design aspects. :)&#62;</p>
      <img style = {{maxWidth: '500px'}} src = {girl_powered_picture}/>
 
 
-    
+    <Section sectionTitle = "Research">
+       <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+       
+    </Section>
 
   </Layout>
 )
