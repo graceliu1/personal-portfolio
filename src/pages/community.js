@@ -56,7 +56,7 @@ const FifthPage = () => (
         
       <img style = {{width: '100%'}} src = {shield_staff_meeting_picture} />
       <Section sectionTitle = "Dublin Shield">
-          <div className = {section5}>
+          <div className = {section4}>
             <p className = {sectionName}></p>
             <p>A staff meeting at lunch for the Dublin Shield -- my high school's student newspaper. </p>
           </div>
