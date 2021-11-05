@@ -21,17 +21,17 @@ import Button from '../components/button'
 import Seo from "../components/seo"
 
 import gma_award_ceremony_picture from "../images/gma_award_ceremony.png"
-import girl_powered_picture from "../images/robotics_team2.png"
+import shield_staff_meeting_picture from "../images/shield_staff_meeting.png"
 
 
 const FifthPage = () => (
   <Layout>
     <Seo title="Community" />
       <Section sectionTitle = "GMA Math Contest">
-          <img className = {websiteImage} src = {gma_award_ceremony_picture} />
+          <img style = {{width: '70%'}} src = {gma_award_ceremony_picture} />
           <div className = {section2}>
              <div>
-                <p className = {sectionName}> </p>
+                <p className = {sectionName}>Girls Math Association Math Contest</p>
                 <p>
                   In the summers of 2020 and spring of 2021, I organized an online 
                   math contest for girls in grades 5-8! We had a total of over 200 participants.
@@ -45,12 +45,14 @@ const FifthPage = () => (
              </div>
           </div>
       </Section>
-      <div style = {{backgroundColor: 'light pink', height: '70px'}}>
-        <a><p>check out a news article interview about our event in the local news!</p></a>
+      <div style = {{backgroundColor: 'light pink', height: '70px', width: '100%'}}>
+        <a href = 'https://www.independentnews.com/news/high-school-hosts-online-math-contest-for-girls/article_58ce4406-c63b-11ea-bd6a-fb38b2a180e9.html'><p>a news article interview about our event in the local news!</p></a>
       </div>
-  
+      <img style = {{width: '100%'}}src = {shield_staff_meeting_picture} />
       <Section sectionTitle = "Dublin Shield">
-  
+          <div className = {section3}>
+            
+          </div>
       </Section>
   
       <Section sectionTitle = "Spanish Honors Society">
