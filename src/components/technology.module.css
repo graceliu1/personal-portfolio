@@ -4,6 +4,9 @@
  
 }
 
+.flowerImage {
+  max-width: 25%;
+}
 .websiteImage {
    justify-content: center;
    margin: 10px 15px 10px 15px;
