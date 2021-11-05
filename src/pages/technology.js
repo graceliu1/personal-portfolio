@@ -130,12 +130,12 @@ const ThirdPage = () => (
       </div>
       
     </Section>
-    <img style = {{maxWidth: '500px'}} src = {team_award_picture}/>
+    <img style = {{maxHeight: '400px'}} src = {team_award_picture}/>
 
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '500px'}} src = {robot1}/>
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '500px'}} src = {robot2}/>
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '270px'}} src = {robot3}/>
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '300px'}} src = {robot4}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot1}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot2}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot3}/>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot4}/>
       
 
      <img style = {{maxWidth: '500px'}} src = {girl_powered_picture}/>
@@ -143,7 +143,7 @@ const ThirdPage = () => (
 
     <Section sectionTitle = "Research">
        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-       <div className = {section3} style = {{maxWidth: '25%'}}>
+       <div className = {section3} style = {{maxWidth: '25%', marginLeft: '15px'}}>
            <div style = {{margin: '40px'}}>
              <p className = {sectionName}>Research</p>
              <p>This summer, I completed research on pnuemonia classification with transfer learning at the University of Connecticut.</p>
