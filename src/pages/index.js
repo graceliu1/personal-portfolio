@@ -82,16 +82,13 @@ const IndexPage = () => (
             </p>
             
             <Spacer></Spacer>
-            <Link to="/about-me/">
-                <a href = "google.com" target = "_blank" 
-                style = {{paddingTop: '10px'}}
-                >
+            <Link to="/community">
+                
                   <button className = {buttonText} >
-                      a little more about me
+                      dive into my community
                       <FaAngleRight className = {arrowIcon} />
                   </button>
                   
-                </a>
               
               
             </Link>
@@ -137,7 +134,7 @@ const IndexPage = () => (
 
           </p>
 
-          <Link to="/page-2/"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
+          <Link to="/technology"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
         </div>
       </div>
       
@@ -161,7 +158,9 @@ const IndexPage = () => (
               solutions helps me better understand the concepts behind each
               problem.
             </p>
-            <Button linkDescription = "learn more about my experiences" color = "pinkButton"></Button>
+            <Link to="/community">
+            <Button linkDescription = "check out a math event i hosted" color = "pinkButton"></Button>
+            </Link>
           </div>
 
         </div>
@@ -193,8 +192,9 @@ const IndexPage = () => (
             i participate in our annual entrepenuership competition and build a 
             variety of projects throughout the school year. 
           </p>
-
+        <Link to="/technology">
         <Button linkDescription = "check out our robot + my projects" color = "pinkButton"></Button>
+        </Link>
         </div>
       
       </div>
@@ -226,8 +226,9 @@ const IndexPage = () => (
           <p>
             i've compiled a small anthology of my poems on this portfolio.
           </p>
+          <Link to="/music-and-poetry">
           <Button linkDescription = "a collection of my poems" color = "greenButton"></Button>
-
+          </Link>
         </div>
 
         
@@ -242,24 +243,19 @@ const IndexPage = () => (
         <div className = {section6}>
           <div style = {{color: 'white'}}>
             <p className = {sectionName}>music</p>
-            <p>singing is my one true addiction. whether quietly mouthing 
-              the lyrics to the newest pop hit at my desk or belting out 
-              solo Adele concerts in the shower, i am constantly singing. 
+            <p>i enjoy listening to music, making music with my voice,
+              and making music with my hands.
             
             </p>
             <p>
-              the memories associated with music stay with me long
-                after the first time i hear them. 
-              my favorite songs capture fleeting snapshots of daily 
-              life; when i hear Fight Song, i think back to busy summer 
-              days spent eating persimmons and running errands with my mother. 
-                singing is the bridge
-                into my personal photo album, where thousands of 
-                half-forgotten melodies dance in my mind. 
+              while i'm not whitney houston, i like to make covers of my 
+              favorite songs to share. i've also recently started a tiktok 
+              account for music!
 
             </p>
+            <Link to="/music-and-poetry">
             <Button linkDescription = "covers of songs" color = "greenButton"></Button>
-
+            </Link>
           </div>
         </div>
     </Section>
