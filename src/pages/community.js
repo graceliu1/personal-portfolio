@@ -54,7 +54,7 @@ const FifthPage = () => (
             </div>
       </Section>
         
-      <img style = {{width: '100%'}}src = {shield_staff_meeting_picture} />
+      <img style = {{width: '100%'}} src = {shield_staff_meeting_picture} />
       <Section sectionTitle = "Dublin Shield">
           <div className = {section5}>
             <p className = {sectionName}></p>
@@ -66,7 +66,7 @@ const FifthPage = () => (
   
       </Section>
     
-<p><em>this page is currently under ~intensive~ developement. if you check back in a day or two, it'll be done!</em></p>
+<p><em>this page is currently under ~intensive~ developement</em></p>
 
   </Layout>
 )
