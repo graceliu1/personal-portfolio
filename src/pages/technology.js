@@ -108,7 +108,7 @@ const ThirdPage = () => (
           <img className = {flowerImage} src = {flower_2}/>
         </Section>
 
-  <div style = {{display: 'flex'}}>
+  <div style = {{display: 'flex', justifyContent: 'center'}}>
     <a href = "https://dublinhighmath.com"><img className = {websiteImage} src = {website1_math}/> </a>
     <a href = "https://eluo.herokuapp.com"><img className = {websiteImage} src = {website2_eluo}/> </a>
   </div>
