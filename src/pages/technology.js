@@ -118,13 +118,13 @@ const ThirdPage = () => (
     <a href = "https://classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
   </div>
   
-  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', paddingTop: '20px'}}> </div>
+  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', marginTop: '40px'}}> </div>
   
 
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {section3} style = {{backgroundColor: 'rgb(226,120,39)', maxWidth: '50%'}}>
+      <div className = {section3} style = {{backgroundColor: '#ebb856', maxWidth: '50%'}}>
         <div>
           <p className = {sectionName}>Robotics Field</p>
           
@@ -154,12 +154,12 @@ const ThirdPage = () => (
     <img style = {{maxHeight: '400px'}} src = {girl_powered_picture}/>
     </div>
 
-    
-  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', paddingTop: '20px'}}> </div>
+  
+  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', marginTop: '40px'}}> </div>
   
     <Section sectionTitle = "Research">
        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-       <div className = {section3} style = {{maxWidth: '40%', marginLeft: '25px'}}>
+       <div className = {section3} style = {{backgroundColor: '#ede5d3', color: 'black', maxWidth: '40%', marginLeft: '25px'}}>
            <div style = {{margin: '30px'}}>
              <p className = {sectionName}>Research</p>
              <p>This summer, I completed research on pnuemonia classification with transfer learning at the University of Connecticut.</p>
