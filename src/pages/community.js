@@ -37,7 +37,7 @@ const FifthPage = () => (
     <Seo title="Community" />
       <Section sectionTitle = "GMA Math Contest">
           <div>
-          <img style = {{maxwidth: '45%'}} src = {gma_award_ceremony_picture} />
+          <img style = {{maxWidth: '45%'}} src = {gma_award_ceremony_picture} />
           </div>
           <div className = {section2} style = {{marginLeft: '20px', minWidth: '45%'}}>
              <div>
@@ -65,7 +65,7 @@ const FifthPage = () => (
           </div>
       </Section>
       <Section> 
-        <div style = {{padding: '0px 50px 40px 50px', backgroundColor: '#C31644', color: 'white', width: '100%'}}>
+        <div style = {{padding: '20px 50px 40px 50px', backgroundColor: '#C31644', color: 'white', width: '100%'}}>
               <a href = "https://www.independentnews.com/news/high-school-hosts-online-math-contest-for-girls/article_58ce4406-c63b-11ea-bd6a-fb38b2a180e9.html" target = "_blank">
                       <button className = {buttonText} >
                          a news article interview about our event in the local news!
