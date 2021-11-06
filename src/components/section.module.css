@@ -95,27 +95,36 @@
 
 .sectionImage2 {
     align-self:center;
-    margin-left: 50px;
+     justify-content: center;
+    /*
+    margin-left: 50px;*/
     width: 230px;
 }
 .sectionImage3 {
     align-self:center;
-    margin-left: 50px;
+     justify-content: center;/*
+    margin-left: 50px;*/
     width: 180px;
 }
 
 .sectionImage4 {
     align-self: center;
-    margin-left: 40px;
+     justify-content: center;
+    /*
+    margin-left: 40px;*/
 }
 
 .sectionImage5 {
     align-self: center;
     width: 180px;
-    margin-left: 40px;
+    /*
+    margin-left: 40px;*/
+     justify-content: center;
 }
 
 .sectionImage6 {
     align-self: center;
-    margin-left: 50px;
+    /*
+    margin-left: 50px;*/
+     justify-content: center;
 }
