@@ -111,7 +111,7 @@ const IndexPage = () => (
     
     
     <Section sectionTitle = "programming">
-        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', minWidth: '48%'}}>
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', minWidth: '35%'}}>
           <img className = {sectionImage2} src = {figure2}/>
         </div>
         <div className = {section2}>
