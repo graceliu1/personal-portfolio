@@ -65,15 +65,15 @@ const FifthPage = () => (
           </div>
       </Section>
       <Section> 
-            <div className = {section3} style = {{width: '100%'}}>
+        <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#C31644', color: 'white', width: '100%'}}>
                  <a href = 'https://www.independentnews.com/news/high-school-hosts-online-math-contest-for-girls/article_58ce4406-c63b-11ea-bd6a-fb38b2a180e9.html'><p>a news article interview about our event in the local news!</p></a>
-            </div>
+        </div>
       </Section>
         
       <img style = {{width: '100%'}} src = {shield_staff_meeting_picture} />
       
         <Section sectionTitle = "Dublin Shield" style = {{width: '100%'}}>
-          <div className = {section4} style = {{minwidth: '100%'}}>
+          <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white', width: '100%'}}>
             <p className = {sectionName}></p>
             <p>A staff meeting at lunch for the Dublin Shield -- my high school's student newspaper. </p>
           </div>
