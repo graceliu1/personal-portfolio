@@ -37,9 +37,9 @@ const FifthPage = () => (
     <Seo title="Community" />
       <Section sectionTitle = "GMA Math Contest">
           <div>
-          <img style = {{width: '60%'}} src = {gma_award_ceremony_picture} />
+          <img  src = {gma_award_ceremony_picture} />
           </div>
-          <div className = {section2} style = {{marginLeft: '20px'}}>
+          <div className = {section2} style = {{marginLeft: '20px', minWidth: '45%'}}>
              <div>
                 <p className = {sectionName}>Girls Math Association - Annual Math Contest</p>
                 <p>
@@ -71,8 +71,9 @@ const FifthPage = () => (
       </Section>
         
       <img style = {{width: '100%'}} src = {shield_staff_meeting_picture} />
-      <Section sectionTitle = "Dublin Shield" style = {{width: '100%'}}>
-          <div className = {section4} style = {{width: '100%'}}>
+      
+        <Section sectionTitle = "Dublin Shield" style = {{width: '100%'}}>
+          <div className = {section4} style = {{minwidth: '100%'}}>
             <p className = {sectionName}></p>
             <p>A staff meeting at lunch for the Dublin Shield -- my high school's student newspaper. </p>
           </div>
