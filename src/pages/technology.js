@@ -124,7 +124,7 @@ const ThirdPage = () => (
     <Section sectionTitle = "Robotics">
 
       <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '50%'}}>
-        <div style = {{margin: '30px'}}>
+        <div style = {{padding: '30px'}}>
           <p className = {sectionName}>Robotics Field</p>
           
           <p>
