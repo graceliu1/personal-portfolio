@@ -92,8 +92,8 @@ const ThirdPage = () => (
   
       <Section sectionTitle = "Code Garden">
           <img className = {flowerImage} src = {flower_1}/>
-          <div style = {{backgroundColor: '#c9ffd1', boxShadow: '0px 2px 5px rgba(155, 155, 155, 0.9)'}}>
-            <div style = {{padding: '40px'}}>
+          <div className = {section3} style = {{backgroundColor: '#c9ffd1'}}>
+            <div>
               <p className = {sectionName}>Code Garden</p>
                <p>Welcome to my "garden" of code... in the form of websites! I enjoy building sites, both for fun and for projects.
                </p>
@@ -123,8 +123,8 @@ const ThirdPage = () => (
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '50%'}}>
-        <div style = {{padding: '30px'}}>
+      <div className = {section3} style = {{backgroundColor: '#ffde85', maxWidth: '50%'}}>
+        <div>
           <p className = {sectionName}>Robotics Field</p>
           
           <p>
@@ -152,7 +152,7 @@ const ThirdPage = () => (
 
     <Section sectionTitle = "Research">
        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-       <div className = {section3} style = {{maxWidth: '50%', marginLeft: '25px'}}>
+       <div className = {section3} style = {{maxWidth: '40%', marginLeft: '25px'}}>
            <div style = {{margin: '30px'}}>
              <p className = {sectionName}>Research</p>
              <p>This summer, I completed research on pnuemonia classification with transfer learning at the University of Connecticut.</p>
