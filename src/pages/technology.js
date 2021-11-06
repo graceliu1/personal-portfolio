@@ -118,7 +118,7 @@ const ThirdPage = () => (
     <a href = "https://classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
   </div>
   
-    <hr style = {{height: '0px', borderTop: '2px black solid'}}></hr>
+    <hr style = {{height: '0px', borderTop: '2px black solid', marginTop: '20px'}}></hr>
 
 
         
