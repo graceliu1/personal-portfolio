@@ -130,16 +130,20 @@
 }
 
 .poetryBlock {
-    color: white;
     padding: 30px;
     font-family: "Gill Sans", sans-serif;
+}
+
+.poetryBlock1 {
+    background-color: '#e0a82f';
+    color: white;
 }
 .poetryBlock .poemName {
     font-size: 15px; 
     margin-bottom: 3px;
 }
 
-.poetryBlock:hover {
+.poetryBlock1:hover, .poetryBlock:hover {
     background-color: #EDE5D3;
     color: black;
 }
