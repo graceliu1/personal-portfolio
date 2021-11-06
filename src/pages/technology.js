@@ -118,7 +118,7 @@ const ThirdPage = () => (
     <a href = "https://classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
   </div>
   
-    <hr style = {{height: '0px', borderTop: '2px black solid', marginTop: '20px'}}></hr>
+    <hr style = {{height: '0px', borderTop: '2px black solid', paddingTop: '20px'}}></hr>
 
 
         
@@ -153,6 +153,8 @@ const ThirdPage = () => (
     <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot4}/>
     <img style = {{maxHeight: '400px'}} src = {girl_powered_picture}/>
     </div>
+
+    <hr style = {{height: '0px', borderTop: '2px black solid', paddingTop: '20px'}}></hr>
 
     <Section sectionTitle = "Research">
        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
