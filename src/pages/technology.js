@@ -149,7 +149,7 @@ const ThirdPage = () => (
       <img style = {{margin: '10px 10px 10px 10px', maxHeight: '380px', justifyContent: 'center'}} src = {robot3}/>
     </div>
 
-    <div>
+    <div style = {{display: 'flex', justifyContent: 'center'}}>
     <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot4}/>
     <img style = {{maxHeight: '400px'}} src = {girl_powered_picture}/>
     </div>
