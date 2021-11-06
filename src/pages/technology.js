@@ -92,7 +92,7 @@ const ThirdPage = () => (
   
       <Section sectionTitle = "Code Garden">
           <img className = {flowerImage} src = {flower_1}/>
-          <div className = {section3} style = {{backgroundColor: '#8e9e51', color: 'black'}}>
+          <div className = {section3} style = {{backgroundColor: '#8e9e51'}}>
             <div>
               <p className = {sectionName}>Code Garden</p>
                <p>Welcome to my "garden" of code... in the form of websites! I enjoy building sites, both for fun and for projects.
@@ -118,13 +118,13 @@ const ThirdPage = () => (
     <a href = "https://classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
   </div>
   
-    <hr style = {{height: '0px', borderTop: '2px black solid', paddingTop: '20px'}}></hr>
-
+  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', marginTop: '20px'}}> </div>
+  
 
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {section3} style = {{backgroundColor: '#edcd76', maxWidth: '50%',  color: 'black'}}>
+      <div className = {section3} style = {{backgroundColor: '#efd491', maxWidth: '50%',  color: 'black'}}>
         <div>
           <p className = {sectionName}>Robotics Field</p>
           
@@ -154,8 +154,9 @@ const ThirdPage = () => (
     <img style = {{maxHeight: '400px'}} src = {girl_powered_picture}/>
     </div>
 
-    <hr style = {{height: '0px', borderTop: '2px black solid', paddingTop: '20px'}}></hr>
-
+    
+  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', marginTop: '20px'}}> </div>
+  
     <Section sectionTitle = "Research">
        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
        <div className = {section3} style = {{maxWidth: '40%', marginLeft: '25px'}}>
