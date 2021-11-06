@@ -128,3 +128,18 @@
     margin-left: 50px;*/
      justify-content: center;
 }
+
+.poetryBlock {
+    color: white;
+    padding: 30px;
+    font-family: "Gill Sans", sans-serif;
+}
+.poetryBlock .poemName {
+    font-size: 15px; 
+    margin-bottom: 3px;
+}
+
+.poetryBlock:hover {
+    background-color: #EDE5D3;
+    color: black;
+}
