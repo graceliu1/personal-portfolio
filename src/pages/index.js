@@ -154,7 +154,9 @@ const IndexPage = () => (
             <p>
               one of my favorite parts of doing math is the collaborative aspect. 
               whether teaching others or listening to explanations, i enjoy seeing the 
-              different solutions to each problem. analyzing my peers' 
+              different solutions to each problem. 
+           </p>
+           <p>analyzing my peers' 
               solutions helps me better understand the concepts behind each
               problem.
             </p>
@@ -165,14 +167,14 @@ const IndexPage = () => (
 
         </div>
 
-        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth: '48%'}}>
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', minWidth: '35%'}}>
           <img className = {sectionImage3} src = {figure3}/>
         </div>
     </Section>
 
     
     <Section sectionTitle = "engineering">
-      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth: '48%'}}>
+      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center',  minWidth: '35%'}}>
           <img className = {sectionImage4} src = {figure4}/>
         </div>
      
@@ -239,7 +241,7 @@ const IndexPage = () => (
         
       </div>
 
-      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth: '48%'}}>
+      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center',  minWidth: '35%'}}>
           <img className = {sectionImage5} src = {figure5}/>
        </div>
        
@@ -247,7 +249,7 @@ const IndexPage = () => (
   
     
     <Section sectionTitle = "music">
-        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth: '48%'}}>
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center',  minWidth: '35%'}}>
           <img className = {sectionImage6} src = {figure6}/>
         </div>
         
