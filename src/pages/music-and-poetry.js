@@ -104,7 +104,7 @@ const FourthPage = () => (
     </Section>
 
     <div>
-     <img src = {inception_poem} style = {{minWidth:'250px'}}/>
+     <img src = {inception_poem} style = {{minWidth:'250px'}} />
     <img src = {somnium_poem} style = {{minWidth:'250px'}}/>
     </div>
     
@@ -147,8 +147,8 @@ const FourthPage = () => (
 
     <div style = {{width: '100%', display: 'flex', alignItem: 'center', justifyContent: 'center'}}>
        
-        <a href = "https://youtu.be/8awpUoMMNL0"><img src = {qing_hua_ci_cover} style = {{maxWidth: '50%'}}/></a>
-        <a href = "https://youtu.be/OJFxZJC057I" ><img src = {all_of_me_cover} style = {{maxWidth: '50%', marginLeft: '20px'}}/></a>
+        <a href = "https://youtu.be/8awpUoMMNL0" target = "_blank" ><img src = {qing_hua_ci_cover} style = {{maxWidth: '100%'}}/></a>
+        <a href = "https://youtu.be/OJFxZJC057I" target = "_blank"  ><img src = {all_of_me_cover} style = {{maxWidth: '100%', marginLeft: '20px'}}/></a>
        </div>
 
     
