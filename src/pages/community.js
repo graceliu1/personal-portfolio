@@ -40,7 +40,7 @@ const FifthPage = () => (
           
           <img style = {{maxWidth: '50%'}} src = {gma_award_ceremony_picture} />
           
-          <div className = {section2} style = {{marginLeft: '20px', minWidth: '35%'}}>
+          <div className = {section2} style = {{marginLeft: '20px', maxWidth: '30%'}}>
              <div>
                 <p className = {sectionName}>Girls Math Association - Annual Math Contest</p>
                 <p>
@@ -82,9 +82,10 @@ const FifthPage = () => (
         
       <img style = {{width: '100%'}} src = {shield_staff_meeting_picture} />
       
-        <Section sectionTitle = "Dublin Shield" style = {{width: '60%'}}>
+      
+      <Section sectionTitle = "Dublin Shield">
           <div>
-          <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white', width: '100%'}}>
+          <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white', maxWidth: '60%'}}>
             <p className = {sectionName}>The Dublin Shield</p>
             <p>Above is a picture of an October staff meeting at lunch for my high school's student newspaper.</p>
             <p>Serving as the Editor-in-Chief of the Shield has been one of my favorite experiences so far. Every 
