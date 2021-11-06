@@ -23,13 +23,23 @@ import Seo from "../components/seo"
 import gma_award_ceremony_picture from "../images/gma_award_ceremony.png"
 import shield_staff_meeting_picture from "../images/shield_staff_meeting.png"
 
+/**** start of import statements for button ****/
+import {
+  arrowIcon,
+  buttonText,
+} from "../components/main.module.css"
+
+import { FaAngleRight} from "@react-icons/all-files/fa/FaAngleRight";
+/**** end of import statements for button ****/
 
 const FifthPage = () => (
   <Layout>
     <Seo title="Community" />
       <Section sectionTitle = "GMA Math Contest">
+          <div>
           <img style = {{width: '60%'}} src = {gma_award_ceremony_picture} />
-          <div className = {section2}>
+          </div>
+          <div className = {section2} style = {{marginLeft: '20px'}}>
              <div>
                 <p className = {sectionName}>Girls Math Association - Annual Math Contest</p>
                 <p>
@@ -43,6 +53,12 @@ const FifthPage = () => (
                     
                     
                 </p>
+                <a href = "https://girlsmathassociation.com/contest.php" target = "_blank">
+                      <button className = {buttonText} >
+                         see an overview of our contest
+                              <FaAngleRight className = {arrowIcon} />
+                      </button>
+                </a>
                 <p><small>photos are used with parental permission, last names removed for privacy</small></p>
                 
              </div>
@@ -55,8 +71,8 @@ const FifthPage = () => (
       </Section>
         
       <img style = {{width: '100%'}} src = {shield_staff_meeting_picture} />
-      <Section sectionTitle = "Dublin Shield">
-          <div className = {section4}>
+      <Section sectionTitle = "Dublin Shield" style = {{width: '100%'}}>
+          <div className = {section4} style = {{width: '100%'}}>
             <p className = {sectionName}></p>
             <p>A staff meeting at lunch for the Dublin Shield -- my high school's student newspaper. </p>
           </div>
