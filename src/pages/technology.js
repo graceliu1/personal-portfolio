@@ -101,7 +101,12 @@ const ThirdPage = () => (
               (including this website) and I hope to continue improving in the near future. </p>
                <p> And if you haven't noticed already, I like encorporating some visual design aspects into my work as well. Click on the website 
               previews to visit the links. Stop a while, smell the flowers!</p>
-
+              <a href = "https://github.com/graceliu1" target = "_blank">
+                <button className = {buttonText} >
+                   check out my github
+                        <FaAngleRight className = {arrowIcon} />
+                </button>
+              </a>
 
             </div>
           </div>
@@ -137,7 +142,12 @@ const ThirdPage = () => (
               teams during high school and meeting many lovely people in the club. 
 
           </p>
-
+          <a href = "https://challenges.robotevents.com/uploads/0011804_original.pdf" target = "_blank">
+                <button className = {buttonText} >
+                   see our girl powered submission
+                        <FaAngleRight className = {arrowIcon} />
+                </button>
+          </a>
         </div>
       </div>
       <img style = {{maxWidth: '50%', marginLeft: '20px'}} src = {team_award_picture}/>
@@ -155,7 +165,7 @@ const ThirdPage = () => (
     </div>
 
   
-  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', marginTop: '40px 0px 40px 0px'}}> </div>
+  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', margin: '40px 0px 40px 0px'}}> </div>
   
     <Section sectionTitle = "Research">
        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -169,7 +179,7 @@ const ThirdPage = () => (
                  Overall, the research process has been a journey of joy, frustration, and continuous learning/coding. I've become
                   intrigued by deep learning and hope to continue my pursuits in college.
              </p>
-              <a href = "https://www.ee.uconn.edu/shengli-zhou/front-page/service/summerprogram2021/">
+              <a href = "https://www.ee.uconn.edu/shengli-zhou/front-page/service/summerprogram2021/" target = "_blank">
                 <button className = {buttonText} >
                    see the program's webpage
                         <FaAngleRight className = {arrowIcon} />
