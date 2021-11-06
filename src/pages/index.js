@@ -23,6 +23,7 @@ import Layout from "../components/layout"
 import Section from '../components/section'
 import Button from '../components/button'
 import Spacer from '../components/spacer'
+import Seo from "../components/seo"
 
 /* BELOW ARE THE FIGURES */
 import figure1 from  "../images/square_profile_photo.png" /*"../images/introduction_figure.png"*/
