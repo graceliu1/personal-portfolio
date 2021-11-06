@@ -15,6 +15,11 @@ import {
   flowerImage
 } from '../components/technology.module.css'
 
+import {
+  arrowIcon,
+  buttonText,
+} from "../components/main.module.css"
+
 import Layout from "../components/layout"
 import Section from '../components/section'
 import Button from '../components/button'
@@ -84,8 +89,8 @@ const ThirdPage = () => (
   
       <Section sectionTitle = "Code Garden">
           <img className = {flowerImage} src = {flower_1}/>
-          <div style = {{backgroundColor: '#c9ffd1'}}>
-            <div style = {{margin: '50px'}}>
+          <div style = {{backgroundColor: '#c9ffd1', boxShadow: '0px 2px 5px rgba(155, 155, 155, 0.9)'}}>
+            <div >
               <p className = {sectionName}>Code Garden</p>
                <p>Welcome to my "garden" of code... in the form of websites! I enjoy building sites, both for fun and for projects.
                </p>
@@ -115,7 +120,7 @@ const ThirdPage = () => (
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '100%'}}>
+      <div className = {sectionRobotics} style = {{backgroundColor: '#ffde85', maxWidth: '50%'}}>
         <div style = {{margin: '30px'}}>
           <p className = {sectionName}>Robotics Field</p>
           
@@ -128,27 +133,35 @@ const ThirdPage = () => (
 
         </div>
       </div>
-      
+      <img style = {{maxWidth: '50%'}} src = {team_award_picture}/>
     </Section>
-    <img style = {{maxHeight: '400px'}} src = {team_award_picture}/>
+    
+    <div>
+      <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot1}/>
+      <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot2}/>
+      <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot3}/>
+    </div>
 
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot1}/>
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot2}/>
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot3}/>
-    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '400px'}} src = {robot4}/>
-      
-
-     <img style = {{maxWidth: '500px'}} src = {girl_powered_picture}/>
-
+    <div>
+    <img style = {{margin: '10px 10px 10px 10px', maxHeight: '450px'}} src = {robot4}/>
+    <img style = {{maxHeight: '450px'}} src = {girl_powered_picture}/>
+    </div>
 
     <Section sectionTitle = "Research">
        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-       <div className = {section3} style = {{maxWidth: '25%', marginLeft: '15px'}}>
-           <div style = {{margin: '40px'}}>
+       <div className = {section3} style = {{maxWidth: '30%', marginLeft: '25px'}}>
+           <div style = {{margin: '30px'}}>
              <p className = {sectionName}>Research</p>
              <p>This summer, I completed research on pnuemonia classification with transfer learning at the University of Connecticut.</p>
              <p>My project was advised by Professor Shengli Zhou and Professor Jinbo Bi. At the conclusion of the program,
                I gave a formal presentation, linked at the right.</p>
+              
+              <a href = "https://www.ee.uconn.edu/shengli-zhou/front-page/service/summerprogram2021/">
+                <button className = {buttonText} >
+                   see the official webpage for the summer program
+                        <FaAngleRight className = {arrowIcon} />
+                </button>
+              </a>
            </div>
        </div>
     </Section>
