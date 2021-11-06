@@ -92,7 +92,7 @@ const ThirdPage = () => (
   
       <Section sectionTitle = "Code Garden">
           <img className = {flowerImage} src = {flower_1}/>
-          <div className = {section3} style = {{backgroundColor: '#c9ffd1', color: 'black'}}>
+          <div className = {section3} style = {{backgroundColor: '#8e9e51', color: 'black'}}>
             <div>
               <p className = {sectionName}>Code Garden</p>
                <p>Welcome to my "garden" of code... in the form of websites! I enjoy building sites, both for fun and for projects.
@@ -124,7 +124,7 @@ const ThirdPage = () => (
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {section3} style = {{backgroundColor: '#ffde85', maxWidth: '50%',  color: 'black'}}>
+      <div className = {section3} style = {{backgroundColor: '#edcd76', maxWidth: '50%',  color: 'black'}}>
         <div>
           <p className = {sectionName}>Robotics Field</p>
           
