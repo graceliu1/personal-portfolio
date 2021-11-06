@@ -111,38 +111,38 @@ const IndexPage = () => (
     
     
     <Section sectionTitle = "programming">
+      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <img className = {sectionImage2} src = {figure2}/>
 
-      <img className = {sectionImage2} src = {figure2}/>
+        <div className = {section2}>
+            <div>
+              <p className = {sectionName}>programming</p>
+              <p>to me, the ability to code is freedom to explore and make anything i want to. 
+              </p>
 
-      <div className = {section2}>
-        <div>
-          <p className = {sectionName}>programming</p>
-          <p>to me, the ability to code is freedom to explore and make anything i want to. 
-          </p>
-          
-          <p>
-          i develop sites for both personal pursuits and community endeavors. i'm experienced in full-stack development - html, css, javascript, php, and react.js.
+              <p>
+              i develop sites for both personal pursuits and community endeavors. i'm experienced in full-stack development - html, css, javascript, php, and react.js.
 
-          </p>
-          <p>
-          as president of my school's <em>girls who code</em> club, i teach 
-            members the basics of coding. 
-          </p>
-          <p>
-            aside from full-stack, i'm currently exploring algorithms. i program in 
-            java, python, and some c++.
+              </p>
+              <p>
+              as president of my school's <em>girls who code</em> club, i teach 
+                members the basics of coding. 
+              </p>
+              <p>
+                aside from full-stack, i'm currently exploring algorithms. i program in 
+                java, python, and some c++.
 
-          </p>
+              </p>
 
-          <Link to="/technology"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
-        </div>
-      </div>
-      
+              <Link to="/technology"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
+            </div>
+          </div>
+       </div>
     </Section>
   
 
     <Section sectionTitle = "math">
-
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <div className = {section3}>
 
           <div>
@@ -166,11 +166,12 @@ const IndexPage = () => (
         </div>
         
         <img className = {sectionImage3} src = {figure3}/>
-        
+        </div>
     </Section>
 
     
     <Section sectionTitle = "engineering">
+      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
       <img className = {sectionImage4} src = {figure4}/>
 
       <div className = {section4}>
@@ -198,11 +199,13 @@ const IndexPage = () => (
         </div>
       
       </div>
+      </div>
       
     </Section>
     
 
     <Section sectionTitle = "poetry">
+      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
       <div className = {section5}>
         <div>
           <p className = {sectionName}>poetry</p>
@@ -234,10 +237,12 @@ const IndexPage = () => (
         
       </div>
       <img className = {sectionImage5} src = {figure5}/>
+        </div>
     </Section>
   
     
     <Section sectionTitle = "music">
+      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <img className = {sectionImage6} src = {figure6}/>
         
         <div className = {section6}>
@@ -257,6 +262,7 @@ const IndexPage = () => (
             <Button linkDescription = "covers of songs" color = "greenButton"></Button>
             </Link>
           </div>
+        </div>
         </div>
     </Section>
 
