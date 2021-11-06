@@ -111,9 +111,9 @@ const IndexPage = () => (
     
     
     <Section sectionTitle = "programming">
-      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-        <img className = {sectionImage2} src = {figure2}/>
-
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <img className = {sectionImage2} src = {figure2}/>
+        </div>
         <div className = {section2}>
             <div>
               <p className = {sectionName}>programming</p>
@@ -136,13 +136,13 @@ const IndexPage = () => (
 
               <Link to="/technology"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
             </div>
-          </div>
-       </div>
+        </div>
+      
     </Section>
   
 
     <Section sectionTitle = "math">
-        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        
         <div className = {section3}>
 
           <div>
@@ -164,15 +164,18 @@ const IndexPage = () => (
           </div>
 
         </div>
-        
-        <img className = {sectionImage3} src = {figure3}/>
+
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <img className = {sectionImage3} src = {figure3}/>
         </div>
     </Section>
 
     
     <Section sectionTitle = "engineering">
       <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-      <img className = {sectionImage4} src = {figure4}/>
+          <img className = {sectionImage4} src = {figure4}/>
+        </div>
+     
 
       <div className = {section4}>
 
@@ -199,13 +202,12 @@ const IndexPage = () => (
         </div>
       
       </div>
-      </div>
       
     </Section>
     
 
     <Section sectionTitle = "poetry">
-      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+      
       <div className = {section5}>
         <div>
           <p className = {sectionName}>poetry</p>
@@ -236,14 +238,18 @@ const IndexPage = () => (
 
         
       </div>
-      <img className = {sectionImage5} src = {figure5}/>
-        </div>
+
+      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <img className = {sectionImage5} src = {figure5}/>
+       </div>
+       
     </Section>
   
     
     <Section sectionTitle = "music">
-      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-        <img className = {sectionImage6} src = {figure6}/>
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <img className = {sectionImage6} src = {figure6}/>
+        </div>
         
         <div className = {section6}>
           <div style = {{color: 'white'}}>
@@ -263,7 +269,7 @@ const IndexPage = () => (
             </Link>
           </div>
         </div>
-        </div>
+
     </Section>
 
     </div>
