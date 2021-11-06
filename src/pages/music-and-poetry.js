@@ -64,6 +64,12 @@ import all_of_me_cover from "..images/all_of_me_cover.png"*/
 
 
 
+    <div className = {poetryBlock} className = {poetryBlock1} style = {{backgroundColor: '#e0a82f', color: 'white'}}>
+      <p className = {poemName}>three names</p>
+      <p> 
+        
+      </p>
+    </div>
 
 
 */
@@ -71,15 +77,6 @@ const FourthPage = () => (
   <Layout>
     <Seo title="Music and Poetry" />
     
-    <div className = {poetryBlock} className = {poetryBlock1} style = {{backgroundColor: '#e0a82f', color: 'white'}}>
-      <p className = {poemName}>three names</p>
-      <Text> 
-        {`
-Hi~
-this is a test message.
-`}
-      </Text>
-    </div>
 
 
     <Section sectionTitle = "Poetry">
