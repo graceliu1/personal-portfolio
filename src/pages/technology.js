@@ -92,7 +92,7 @@ const ThirdPage = () => (
   
       <Section sectionTitle = "Code Garden">
           <img className = {flowerImage} src = {flower_1}/>
-          <div className = {section3} style = {{backgroundColor: '#c9ffd1'}}>
+          <div className = {section3} style = {{backgroundColor: '#c9ffd1', color: 'black'}}>
             <div>
               <p className = {sectionName}>Code Garden</p>
                <p>Welcome to my "garden" of code... in the form of websites! I enjoy building sites, both for fun and for projects.
@@ -117,26 +117,30 @@ const ThirdPage = () => (
     <a href = "https://girlsmathassociation.com"><img className = {websiteImage} src = {website3_gma}/> </a>
     <a href = "https://classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
   </div>
- 
+  
+    <hr></hr>
 
 
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {section3} style = {{backgroundColor: '#ffde85', maxWidth: '50%'}}>
+      <div className = {section3} style = {{backgroundColor: '#ffde85', maxWidth: '50%',  color: 'black'}}>
         <div>
           <p className = {sectionName}>Robotics Field</p>
           
           <p>
-             One of the best parts of my robotics experience was experimenting with various builds. Through taking mechanisms apart and trying new designs, I
-              learned VEX Robotics. These pictures are combined from years on teams 5327R, 5327C, and 5327X. I've learned how to use the mechanical components 
-              and how they can be integrated with programming to create successful robots. 
+             One of the best parts of robotics was experimenting with various builds. Through taking mechanisms apart and trying new designs, I
+              learned a lot about the basics of mechanical engineering.
+          </p>
+          <p>
+                Above all, robotics is a team-centered experience. I've had the privilege of being on three different 
+              teams during high school and meeting many lovely people in the club. 
 
           </p>
 
         </div>
       </div>
-      <img style = {{maxWidth: '50%'}} src = {team_award_picture}/>
+      <img style = {{maxWidth: '50%', marginLeft: '20px'}} src = {team_award_picture}/>
     </Section>
     
     <div style = {{display: 'flex', justifyContent: 'center'}}>
@@ -158,7 +162,10 @@ const ThirdPage = () => (
              <p>This summer, I completed research on pnuemonia classification with transfer learning at the University of Connecticut.</p>
              <p>My project was advised by Professor Shengli Zhou and Professor Jinbo Bi. At the conclusion of the program,
                I gave a formal presentation, linked at the right.</p>
-              
+             <p>
+                 Overall, the research process has been a journey of joy, frustration, and continuous learning/coding. I've become
+                  intrigued by deep learning and hope to continue my pursuits in college.
+             </p>
               <a href = "https://www.ee.uconn.edu/shengli-zhou/front-page/service/summerprogram2021/">
                 <button className = {buttonText} >
                    see the program's webpage
