@@ -93,7 +93,7 @@ const FourthPage = () => (
 
 </Section>
 
-    <div style = {{width: '100%', display: 'flex', alignItem: 'center', justifyContent: 'center'>
+    <div style = {{width: '100%', display: 'flex', alignItem: 'center', justifyContent: 'center'}}>
        
         <img src = {qing_hua_ci_cover} style = {{maxWidth: '50%'}}/>
         <img src = {all_of_me_cover} style = {{maxWidth: '50%', marginLeft: '20px'}}/> 
