@@ -23,6 +23,7 @@ import Seo from "../components/seo"
 import gma_award_ceremony_picture from "../images/gma_award_ceremony.png"
 import shield_staff_meeting_picture from "../images/shield_staff_meeting.png"
 
+import dublin_shield_website from '../images/dublin_shield_website.png'
 /**** start of import statements for button ****/
 import {
   arrowIcon,
@@ -39,7 +40,7 @@ const FifthPage = () => (
           <div>
           <img style = {{maxWidth: '100%'}} src = {gma_award_ceremony_picture} />
           </div>
-          <div className = {section2} style = {{marginLeft: '20px', minWidth: '45%'}}>
+          <div className = {section2} style = {{marginLeft: '20px', minWidth: '35%'}}>
              <div>
                 <p className = {sectionName}>Girls Math Association - Annual Math Contest</p>
                 <p>
@@ -65,7 +66,7 @@ const FifthPage = () => (
           </div>
       </Section>
       <Section> 
-        <div style = {{padding: '20px 50px 40px 50px', backgroundColor: '#C31644', color: 'white', width: '100%'}}>
+        <div style = {{padding: '20px 50px 40px 50px', backgroundColor: '#C31644', color: 'white', width: '100%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.9)'}}>
               <a href = "https://www.independentnews.com/news/high-school-hosts-online-math-contest-for-girls/article_58ce4406-c63b-11ea-bd6a-fb38b2a180e9.html" target = "_blank">
                       <button className = {buttonText} >
                          a news article interview about our event in the local news!
@@ -74,14 +75,24 @@ const FifthPage = () => (
                 </a>
         </div>
       </Section>
+
+      
+      <div style = {{width: '100%', height: '2px', backgroundColor: 'black', margin: '40px 0px 40px 0px'}}> </div>
+  
         
       <img style = {{width: '100%'}} src = {shield_staff_meeting_picture} />
       
-        <Section sectionTitle = "Dublin Shield" style = {{width: '100%'}}>
+        <Section sectionTitle = "Dublin Shield" style = {{width: '60%'}}>
+          <div>
           <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white', width: '100%'}}>
-            <p className = {sectionName}></p>
-            <p>A staff meeting at lunch for the Dublin Shield -- my high school's student newspaper. </p>
+            <p className = {sectionName}>The Dublin Shield</p>
+            <p>Above is a picture of an October staff meeting at lunch for my high school's student newspaper.</p>
+            <p>Serving as the Editor-in-Chief of the Shield has been one of my favorite experiences so far. Every 
+step of the process is collaborative and requires communication between our many section editors, managing team, and 
+staff writers. 
           </div>
+          <img src = {dublin_shield_website} style = {{maxWidth: '40%'}}/>
+            </div>
       </Section>
   
       <Section sectionTitle = "Spanish Honors Society">
