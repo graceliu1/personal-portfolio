@@ -4,7 +4,9 @@ import { Link } from "gatsby"
 import {sectionName,
   sectionContainer,
   sectionContent,
-  sectionAboutMe} from '../components/section.module.css'
+  sectionAboutMe,
+  poetryBlock,
+  poemName} from '../components/section.module.css'
 
 import Layout from "../components/layout"
 import Section from '../components/section'
@@ -26,7 +28,45 @@ const FourthPage = () => (
   <Layout>
     <Seo title="Music and Poetry" />
     
-   
+    <div className = {poetryBlock} style = {{backgroundColor: '#e0a82f', color: 'white'}}>
+      <p className = {poemName}>three names</p>
+      <p>
+        i. grace \n
+        my father saw a Catherine on stage in 2004,\n
+        wanted to name me after her glamour. \n
+        but that year, many saw the same movie. \n
+        the name catherine slipped out their lips \n
+        to touch the foreheads of their newborns \n
+        - and so out my mother’s lips \n
+        tumbled <em>Grace</em>\n
+        <br></br>
+        ii. liu xing yu \n
+        she calls me meteor rain.\n
+        a tribute to the jewels that shower the night,\n
+        inhaled into my fluttering lungs.\n
+        i hold my breath in the dark,\n
+         a thousand and one dreams \n
+        spiraling across my mind. \n
+        for what are shooting stars, \n
+        but the last phase of a dying star?\n
+        <br></br>
+        iii. bao ya\n
+        my nickname sounds like roasted duck\n
+        in my mother’s tongue, it is.\n
+        crispy skin, honey-sweet \n
+        fat and salt and joy.\n
+        she told me before i existed, \n
+        my father proclaimed that\n
+        a son would be called bao dan\n
+        a daughter would be called\n
+        treasured daughter\n
+        <em>(bao ya)</em>\n
+
+
+      </p>
+    </div>
+
+
     <Section sectionTitle = "Poetry">
        <img src = {three_names_poem} style = {{minWidth:'150px'}}/>
     <img src = {pottery_memoirs_poem} style = {{minWidth:'150px'}}/>
@@ -95,8 +135,8 @@ const FourthPage = () => (
 
     <div style = {{width: '100%', display: 'flex', alignItem: 'center', justifyContent: 'center'}}>
        
-        <img src = {qing_hua_ci_cover} style = {{maxWidth: '50%'}}/>
-        <img src = {all_of_me_cover} style = {{maxWidth: '50%', marginLeft: '20px'}}/> 
+        <a href = "https://youtu.be/8awpUoMMNL0"><img src = {qing_hua_ci_cover} style = {{maxWidth: '50%'}}/></a>
+        <a href = "https://youtu.be/OJFxZJC057I" ><img src = {all_of_me_cover} style = {{maxWidth: '50%', marginLeft: '20px'}}/></a>
        </div>
 
     
