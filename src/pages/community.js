@@ -89,7 +89,7 @@ const FifthPage = () => (
             <p>Above is a picture of an October staff meeting at lunch for my high school's student newspaper.</p>
             <p>Serving as the Editor-in-Chief of the Shield has been one of my favorite experiences so far. Every 
 step of the process is collaborative and requires communication between our many section editors, managing team, and 
-staff writers. 
+staff writers. </p>
           </div>
           <img src = {dublin_shield_website} style = {{maxWidth: '40%'}}/>
             </div>
