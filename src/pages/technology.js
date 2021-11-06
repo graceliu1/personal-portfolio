@@ -20,6 +20,9 @@ import {
   buttonText,
 } from "../components/main.module.css"
 
+
+import { FaAngleRight} from "@react-icons/all-files/fa/FaAngleRight";
+
 import Layout from "../components/layout"
 import Section from '../components/section'
 import Button from '../components/button'
