@@ -38,7 +38,7 @@ const FifthPage = () => (
     <Seo title="Community" />
       <Section sectionTitle = "GMA Math Contest">
           
-          <img style = {{maxWidth: '50%'}} src = {gma_award_ceremony_picture} />
+          <img style = {{maxWidth: '65%'}} src = {gma_award_ceremony_picture} />
           
           <div className = {section2} style = {{marginLeft: '20px', maxWidth: '30%'}}>
              <div>
@@ -85,14 +85,16 @@ const FifthPage = () => (
       
       <Section sectionTitle = "Dublin Shield">
           <div>
-          <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white', maxWidth: '60%'}}>
+          <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white', maxWidth: '45%'}}>
             <p className = {sectionName}>The Dublin Shield</p>
             <p>Above is a picture of an October staff meeting at lunch for my high school's student newspaper.</p>
             <p>Serving as the Editor-in-Chief of the Shield has been one of my favorite experiences so far. Every 
 step of the process is collaborative and requires communication between our many section editors, managing team, and 
 staff writers. </p>
           </div>
+          <a href = "https://thedublinshield.com" target = "_blank">
           <img src = {dublin_shield_website} style = {{maxWidth: '40%'}}/>
+          </a>
             </div>
       </Section>
   
