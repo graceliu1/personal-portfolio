@@ -73,12 +73,12 @@ const FourthPage = () => (
     
     <div className = {poetryBlock} className = {poetryBlock1} style = {{backgroundColor: '#e0a82f', color: 'white'}}>
       <p className = {poemName}>three names</p>
-      <p> 
+      <Text> 
         {`
 Hi~
 this is a test message.
 `}
-      </p>
+      </Text>
     </div>
 
 
