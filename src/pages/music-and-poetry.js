@@ -6,6 +6,7 @@ import {sectionName,
   sectionContent,
   sectionAboutMe,
   poetryBlock,
+  poetryBlock1, 
   poemName} from '../components/section.module.css'
 
 import Layout from "../components/layout"
@@ -70,7 +71,7 @@ const FourthPage = () => (
   <Layout>
     <Seo title="Music and Poetry" />
     
-    <div className = {poetryBlock} style = {{backgroundColor: '#e0a82f', color: 'white'}}>
+    <div className = {poetryBlock} className = {poetryBlock1} style = {{backgroundColor: '#e0a82f', color: 'white'}}>
       <p className = {poemName}>three names</p>
       <p> 
         {`
