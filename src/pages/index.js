@@ -55,7 +55,7 @@ import figure6 from "../images/music_figure.png"
 const IndexPage = () => (
   
   <Layout pageTitle="Home Page" >
-    
+     <Seo title="Home" />
     <div>
     
     <Section sectionTitle = "welcome" >
