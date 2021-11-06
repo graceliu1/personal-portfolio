@@ -24,13 +24,8 @@ import all_of_me_cover from '../images/all_of_me_cover.png'
 import qing_hua_ci_cover from "..images/qing_hua_ci_cover.png"
 import all_of_me_cover from "..images/all_of_me_cover.png"*/
 
-const FourthPage = () => (
-  <Layout>
-    <Seo title="Music and Poetry" />
-    
-    <div className = {poetryBlock} style = {{backgroundColor: '#e0a82f', color: 'white'}}>
-      <p className = {poemName}>three names</p>
-      <p>
+/*
+<p>
         i. grace \n
         my father saw a Catherine on stage in 2004,\n
         wanted to name me after her glamour. \n
@@ -63,6 +58,25 @@ const FourthPage = () => (
         <em>(bao ya)</em>\n
 
 
+      </p>
+
+
+
+
+
+
+*/
+const FourthPage = () => (
+  <Layout>
+    <Seo title="Music and Poetry" />
+    
+    <div className = {poetryBlock} style = {{backgroundColor: '#e0a82f', color: 'white'}}>
+      <p className = {poemName}>three names</p>
+      <p> 
+        {`
+Hi~
+this is a test message.
+`}
       </p>
     </div>
 
