@@ -15,9 +15,9 @@ import three_names_poem from "../images/three_names.png"
 import pottery_memoirs_poem from "../images/pottery_memoirs.png"
 import somnium_poem from "../images/somnium.png"
 import inception_poem from "../images/inception.png"
-
+/*
 import qing_hua_ci_cover from "..images/qing_hua_ci_cover.png"
-import all_of_me_cover from "..images/all_of_me_cover.png"
+import all_of_me_cover from "..images/all_of_me_cover.png"*/
 
 const FourthPage = () => (
   <Layout>
@@ -80,8 +80,8 @@ const FourthPage = () => (
         </div>
         </div>
         
-        <img src = {qing_hua_ci_cover} style = {{maxWidth: '50%', marginLeft: '20px'}}/>
-        <img src = {all_of_me_cover} style = {{maxWidth: '50%', marginLeft: '20px'}}/>
+        <img src = {'../images/qing_hua_ci_cover.png'} style = {{maxWidth: '50%', marginLeft: '20px'}}/>
+        <img src = {'../images/qing_hua_ci_cover.png'} style = {{maxWidth: '50%', marginLeft: '20px'}}/>
     <div>
       
       <iframe width="560" height="315" src="https://www.youtube.com/embed/VB9TanDtUQ0?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
