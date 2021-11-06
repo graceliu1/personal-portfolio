@@ -118,13 +118,13 @@ const ThirdPage = () => (
     <a href = "https://classify.herokuapp.com"><img className = {websiteImage} src = {website4_classify}/> </a>
   </div>
   
-  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', marginTop: '40px'}}> </div>
+  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', margin: '40px 0px 40px 0px'}}> </div>
   
 
         
     <Section sectionTitle = "Robotics">
 
-      <div className = {section3} style = {{backgroundColor: '#ebb856', maxWidth: '50%'}}>
+      <div className = {section3} style = {{backgroundColor: '#e3933d', maxWidth: '50%'}}>
         <div>
           <p className = {sectionName}>Robotics Field</p>
           
@@ -155,7 +155,7 @@ const ThirdPage = () => (
     </div>
 
   
-  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', marginTop: '40px'}}> </div>
+  <div style = {{width: '100%', height: '2px', backgroundColor: 'black', marginTop: '40px 0px 40px 0px'}}> </div>
   
     <Section sectionTitle = "Research">
        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSDVcBsrp4iZI_QqHPLvCnQ_O1xWDFsDbyamPz4HHICa27sOnxI9673yzobDfTyIU0f4mbPckRzFNxv/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
