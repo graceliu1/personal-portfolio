@@ -37,9 +37,9 @@ const FifthPage = () => (
   <Layout>
     <Seo title="Community" />
       <Section sectionTitle = "GMA Math Contest">
-          <div>
-          <img style = {{maxWidth: '100%'}} src = {gma_award_ceremony_picture} />
-          </div>
+          
+          <img style = {{maxWidth: '50%'}} src = {gma_award_ceremony_picture} />
+          
           <div className = {section2} style = {{marginLeft: '20px', minWidth: '35%'}}>
              <div>
                 <p className = {sectionName}>Girls Math Association - Annual Math Contest</p>
