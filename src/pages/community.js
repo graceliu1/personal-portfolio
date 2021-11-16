@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from 'gatsby-plugin-image'
 
 import {sectionName,
   sectionContainer,
@@ -43,9 +44,12 @@ const FifthPage = () => (
     <Seo title="Community" />
       <Section sectionTitle = "GMA Math Contest">
           
-          <div style = {{maxWidth: '65%'}}>
-          <img  src = {gma_award_ceremony_picture} />
-          </div>
+          <StaticImage style = {{maxWidth: '65%'}} className = {websiteLogo}
+              alt="Personal Site Logo"
+              src="../images/gma_award_ceremony.png"
+           />
+                
+                
           <div className = {section2} style = {{marginLeft: '20px', maxWidth: '30%'}}>
              <div>
                 <p className = {sectionName}>Girls Math Association - Annual Math Contest</p>
@@ -106,11 +110,14 @@ staff writers. </p>
               
           </div>
           </div>
-          <div style = {{maxWidth: '40%'}}>
+          <div style = {{maxWidth: '45%'}}>
           <a href = "https://thedublinshield.com" target = "_blank">
-          <img  src = {dublin_shield_website}/>
+          <StaticImage style = {{maxWidth: '45%'}}
+              alt="Dublin Shield Website"
+              src="../images/dublin_shield_website.png"
+           />
           </a>
-            </div>
+          </div>
       
         </Section>
   
