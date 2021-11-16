@@ -44,8 +44,8 @@ const FifthPage = () => (
     <Seo title="Community" />
       <Section sectionTitle = "GMA Math Contest">
           
-          <StaticImage style = {{maxWidth: '65%'}} className = {websiteLogo}
-              alt="Personal Site Logo"
+          <StaticImage style = {{maxWidth: '65%'}}
+              alt="GMA Awards Ceremony"
               src="../images/gma_award_ceremony.png"
            />
                 
