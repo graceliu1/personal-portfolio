@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+    <img alt="Gatsby" src="src/images/icon.png" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -10,15 +10,9 @@
 
 Created using Gatsby - open source frontend framework. 
 
-_Interested in learning more about Gatsby? Visit their [official site](https://www.gatsbyjs.com/docs)._
+[Visit my website HERE](https://www.graceliu.gatsbyjs.io)
+## my personal portfolio 🤩
 
-## 🚀 My Personal Site
-
-
-[Visit my website HERE](https://www.gatsbyjs.com/cloud/)
-
-To contact me, please send an email to forevergrace.15@gmail.com.
-
-Thank you!
+To contact me, please send an email to grace.by.liu@gmail.com.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
