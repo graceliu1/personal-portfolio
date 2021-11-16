@@ -84,25 +84,48 @@ const FifthPage = () => (
       
       
       <Section sectionTitle = "Dublin Shield">
-          <div>
-          <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white', maxWidth: '45%'}}>
+          <div style = {{maxWidth: '45%'}}>
+          <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white'}}>
             <p className = {sectionName}>The Dublin Shield</p>
             <p>Above is a picture of an October staff meeting at lunch for my high school's student newspaper.</p>
             <p>Serving as the Editor-in-Chief of the Shield has been one of my favorite experiences so far. Every 
 step of the process is collaborative and requires communication between our many section editors, managing team, and 
 staff writers. </p>
+             <a href = "https://thedublinshield.com" target = "_blank">
+                <button className = {buttonText} >
+                  check out our website :)
+                        <FaAngleRight className = {arrowIcon} />
+                </button>
+             </a>
+              
           </div>
+          </div>
+          <div style = {{maxWidth: '40%'}}>
           <a href = "https://thedublinshield.com" target = "_blank">
-          <img src = {dublin_shield_website} style = {{maxWidth: '40%'}}/>
+          <img src = {dublin_shield_website}/>
           </a>
             </div>
-      </Section>
+      
+        </Section>
   
       <Section sectionTitle = "Spanish Honors Society">
-  
+          <div style = {{minWidth: '100%'}}>
+             <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#96BDC6', color: 'white'}}>
+               <p className = {sectionName}>Sociedad Honoraria Hispánica</p>
+               <p>Spanish was one of my favorite classes in high school. I joined the Spanish Honors Society 
+                 in my sophomore year to learn more about the language and cultures of Spanish-speaking countries. 
+                 Now, as president, I'm involved in organizing cultural celebrations and volunteering events. </p>
+                <a href = "https://www.instagram.com/dublinshh/" target = "_blank">
+                <button className = {buttonText} >
+                  check out our social media account
+                        <FaAngleRight className = {arrowIcon} />
+                </button>
+             </a>
+             </div>
+          </div>
       </Section>
     
-<p><em>this page is currently under ~intensive~ developement</em></p>
+<p><em>this page is currently under ~intensive~ development</em></p>
 
   </Layout>
 )
