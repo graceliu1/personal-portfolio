@@ -18,8 +18,7 @@ main, html, nav {
 }
 .siteHeader {
     z-index: 1000000;
-    padding-top: 0 !important;
-    margin-top: 0 !important;
+    padding-top: 15px;
     height: 90px;
     width: 100%;
     background-color: white;
