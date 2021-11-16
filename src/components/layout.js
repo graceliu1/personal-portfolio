@@ -110,9 +110,8 @@ const Layout = ({ pageTitle, children }) => {
           </div>
           
       </nav>
-      <div style = {{height: '30px', width: '100%'}}>
-      </div>
-      <div className={container}>
+      
+      <div style = {{marginTop: '50px'}} className={container}>
       {children}
 
       <div sectionName = "Footer" style = {{
