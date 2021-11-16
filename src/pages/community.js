@@ -138,9 +138,10 @@ staff writers. </p>
       </Section>
       <Section>
       <div style = {{maxWidth: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-        <img style = {{maxWidth: '33%', margin: '5px'}} src = {shs_1}/>
-          <img style = {{maxWidth: '33%', margin: '5px'}} src = {shs_2}/>
-            <img style = {{maxWidth: '33%', margin: '5px'}} src = {shs_3}/>
+        <StaticImage style = {{maxWidth: '33%', margin: '5px'}} alt="Spanish Honors Society 1" src="../images/shs_1.png"/>
+        <StaticImage style = {{maxWidth: '33%', margin: '5px'}} alt="Spanish Honors Society 2" src="../images/shs_2.png"/>
+        <StaticImage style = {{maxWidth: '33%', margin: '5px'}} alt="Spanish Honors Society 3"  src="../images/shs_3.png"/>
+
       </div>
       </Section>
     
