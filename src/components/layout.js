@@ -110,7 +110,7 @@ const Layout = ({ pageTitle, children }) => {
           </div>
           
       </nav>
-      <div style = {{height: '400px', width: '100%'}}>
+      <div style = {{height: '30px', width: '100%'}}>
       </div>
       <div className={container}>
       {children}
