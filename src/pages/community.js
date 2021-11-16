@@ -24,6 +24,11 @@ import gma_award_ceremony_picture from "../images/gma_award_ceremony.png"
 import shield_staff_meeting_picture from "../images/shield_staff_meeting.png"
 
 import dublin_shield_website from '../images/dublin_shield_website.png'
+
+import shs_1 from '../images/shs_1.png'
+import shs_2 from '../images/shs_2.png'
+import shs_3 from '../images/shs_3.png'
+
 /**** start of import statements for button ****/
 import {
   arrowIcon,
@@ -123,6 +128,13 @@ staff writers. </p>
              </a>
              </div>
           </div>
+      </Section>
+      <Section>
+      <div style = {{maxWidth: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <img style = {{maxWidth: '33%', margin: '5px'}} src = {shs_1}/>
+          <img style = {{maxWidth: '33%', margin: '5px'}} src = {shs_2}/>
+            <img style = {{maxWidth: '33%', margin: '5px'}} src = {shs_3}/>
+      </div>
       </Section>
     
 <p><em>this page is currently under ~intensive~ development</em></p>
