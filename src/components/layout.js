@@ -75,7 +75,7 @@ const Layout = ({ pageTitle, children }) => {
       <title>{pageTitle}</title>
       
       <nav className = {siteHeader}>
-          <div className = {navbar}>
+          <div className = {navbar} style = {{paddingTop: '20px'}}>
           <Link to="/">
             <StaticImage className = {websiteLogo}
               alt="Personal Site Logo"
