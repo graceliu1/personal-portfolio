@@ -8,7 +8,7 @@
     color: rebeccapurple;
 }
 .siteHeader {
-    
+    z-index: 1000000;
     height: 60px;
     width: 100%;
     background-color: white;
