@@ -8,9 +8,7 @@
   Grace Liu's Personal Portfolio
 </h1>
 
-Created using Gatsby - open source frontend framework. 
-
-[Visit my website HERE](https://www.graceliu.gatsbyjs.io)
+Created using Gatsby - open source frontend framework. [Visit my website HERE](https://www.graceliu.gatsbyjs.io)
 ## my personal portfolio 🤩
 
 To contact me, please send an email to grace.by.liu@gmail.com.
