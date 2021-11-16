@@ -112,7 +112,7 @@ staff writers. </p>
           </div>
          
           <a href = "https://thedublinshield.com" target = "_blank">
-          <StaticImage style = {{maxWidth: '45%'}}
+          <StaticImage style = {{maxWidth: '300px'}}
               alt="Dublin Shield Website"
               src="../images/dublin_shield_website.png"
            />
