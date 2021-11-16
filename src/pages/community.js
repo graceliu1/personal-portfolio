@@ -43,7 +43,7 @@ const FifthPage = () => (
     <Seo title="Community" />
       <Section sectionTitle = "GMA Math Contest">
           
-          <div style = {{minWidth: '65%'}}>
+          <div style = {{maxWidth: '65%'}}>
           <img  src = {gma_award_ceremony_picture} />
           </div>
           <div className = {section2} style = {{marginLeft: '20px', maxWidth: '30%'}}>
@@ -108,7 +108,7 @@ staff writers. </p>
           </div>
           <div style = {{maxWidth: '40%'}}>
           <a href = "https://thedublinshield.com" target = "_blank">
-          <img style = {{minWidth: '100%'}} src = {dublin_shield_website}/>
+          <img  src = {dublin_shield_website}/>
           </a>
             </div>
       
