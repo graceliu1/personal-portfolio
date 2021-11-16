@@ -66,17 +66,17 @@ const FifthPage = () => (
                 </p>
                 <a href = "https://girlsmathassociation.com/contest.php" target = "_blank">
                       <button className = {buttonText} >
-                         see an overview of our contest
+                         see the contest site
                               <FaAngleRight className = {arrowIcon} />
                       </button>
                 </a>
-                <p><small>photos are used with parental permission, last names removed for privacy</small></p>
+                <p style = {{marginTop: '8px'}}><small>photos are used with parental permission, last names removed for privacy</small></p>
                 
              </div>
           </div>
       </Section>
       <Section> 
-        <div style = {{padding: '20px 50px 40px 50px', backgroundColor: '#C31644', color: 'white', maxWidth: '100%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.9)'}}>
+        <div style = {{padding: '20px 50px 40px 50px', backgroundColor: '#C31644', color: 'white', display: 'flex', alignItems: 'center', width: '100%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.9)'}}>
               <a href = "https://www.independentnews.com/news/high-school-hosts-online-math-contest-for-girls/article_58ce4406-c63b-11ea-bd6a-fb38b2a180e9.html" target = "_blank">
                       <button className = {buttonText} >
                          a news article interview about our event in the local news!
