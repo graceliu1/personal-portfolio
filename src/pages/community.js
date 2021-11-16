@@ -66,7 +66,7 @@ const FifthPage = () => (
           </div>
       </Section>
       <Section> 
-        <div style = {{padding: '20px 50px 40px 50px', backgroundColor: '#C31644', color: 'white', width: '100%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.9)'}}>
+        <div style = {{padding: '20px 50px 40px 50px', backgroundColor: '#C31644', color: 'white', maxWidth: '100%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.9)'}}>
               <a href = "https://www.independentnews.com/news/high-school-hosts-online-math-contest-for-girls/article_58ce4406-c63b-11ea-bd6a-fb38b2a180e9.html" target = "_blank">
                       <button className = {buttonText} >
                          a news article interview about our event in the local news!
@@ -85,7 +85,7 @@ const FifthPage = () => (
       
       <Section sectionTitle = "Dublin Shield">
           <div style = {{maxWidth: '45%'}}>
-          <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white'}}>
+          <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#B48967', color: 'white', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.9)'}}>
             <p className = {sectionName}>The Dublin Shield</p>
             <p>Above is a picture of an October staff meeting at lunch for my high school's student newspaper.</p>
             <p>Serving as the Editor-in-Chief of the Shield has been one of my favorite experiences so far. Every 
@@ -102,7 +102,7 @@ staff writers. </p>
           </div>
           <div style = {{maxWidth: '40%'}}>
           <a href = "https://thedublinshield.com" target = "_blank">
-          <img src = {dublin_shield_website}/>
+          <img style = {{maxWidth: '40%'}} src = {dublin_shield_website}/>
           </a>
             </div>
       
@@ -110,7 +110,7 @@ staff writers. </p>
   
       <Section sectionTitle = "Spanish Honors Society">
           <div style = {{minWidth: '100%'}}>
-             <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#96BDC6', color: 'white'}}>
+             <div style = {{padding: '40px 50px 40px 50px', backgroundColor: '#96BDC6', color: 'white',  boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.9)'}}>
                <p className = {sectionName}>Sociedad Honoraria Hispánica</p>
                <p>Spanish was one of my favorite classes in high school. I joined the Spanish Honors Society 
                  in my sophomore year to learn more about the language and cultures of Spanish-speaking countries. 
