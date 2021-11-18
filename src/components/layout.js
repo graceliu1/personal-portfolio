@@ -108,6 +108,7 @@ const Layout = ({ pageTitle, children }) => {
           </ul>
           </div>
           </div>
+           <a> <FaEnvelopeSquare className = {socialIcon} /> </a>
           
       </nav>
       
