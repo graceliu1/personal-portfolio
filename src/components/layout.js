@@ -106,9 +106,10 @@ const Layout = ({ pageTitle, children }) => {
               </Link>
             </li>
           </ul>
+          <a href = "mailto:grace.by.liu@gmail.com" target = "_blank"> <FaEnvelopeSquare className = {socialIcon} /> </a>
           </div>
           </div>
-           <a> <FaEnvelopeSquare className = {socialIcon} /> </a>
+           
           
       </nav>
       
