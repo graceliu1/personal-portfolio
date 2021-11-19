@@ -71,15 +71,16 @@ const IndexPage = () => (
               <span className = {highlightTextPink} style = {{zIndex: '0'}}>problem solving skills & creative thinking</span>
               to address challenges in my community.
             </p>
-            <p>as a student leader, i know that a strong team is essential to success. 
-              i lead the <em>girls who code</em> club, <em> the dublin shield</em>, the <em>sociedad honoraria hispanica</em>,
-                and the <em>econ club</em>. 
+            <p>as a student leader, i believe that a strong team is essential to success. 
+              i lead the <em>girls who code club</em>,  the <em> dublin shield</em>, the <em>sociedad honoraria hispanica</em>, the
+                <em>girls math association</em>, and the <em>econ club</em>. 
             </p>
             <p>
-                  my favorite things to do in my free time: read (send book recs!), city scavenger hunts, sing covers.
+                  some things i like to do in my free time are read (send book recs!), go on city scavenger hunts, and sing covers
+                  of pop songs.
             </p>
             <p>check out some <span className = {highlightTextPink} style = {{zIndex: '0'}}>~cool visuals~</span> of my projects and organizations on this site! p.s.
-            all designs and images on here are created by me :)
+            designs on here are created by me :)
             </p>
             
             <Spacer></Spacer>
@@ -118,16 +119,18 @@ const IndexPage = () => (
         <div className = {section2}>
             <div>
               <p className = {sectionName}>programming</p>
-              <p>to me, the ability to code is freedom to explore and make anything i want to. 
+              <p>to me, the ability to code is freedom to explore and make anything i want to. through web dev, i'm able to 
+              fuse design and technical aspects. 
               </p>
 
               <p>
-              i develop sites for both personal pursuits and community endeavors. i'm experienced in full-stack development - html, css, javascript, php, and react.js.
+              i develop sites for both personal pursuits and community endeavors. i'm gaining experience in full-stack development - 
+              languages including html, css, javascript, php, and react.js.
 
               </p>
               <p>
               as president of my school's <em>girls who code</em> club, i teach 
-                members the basics of coding. 
+                members the basics of Python and Java in workshops and events. 
               </p>
               <p>
                 aside from full-stack, i'm currently exploring algorithms. i program in 
@@ -154,12 +157,12 @@ const IndexPage = () => (
             </p>
             <p>
               one of my favorite parts of doing math is the collaborative aspect. 
-              whether teaching others or listening to explanations, i enjoy seeing the 
+              whether teaching others or listening to explanations, i enjoy visualizing the 
               different solutions to each problem. 
            </p>
-           <p>analyzing my peers' 
-              solutions helps me better understand the concepts behind each
-              problem.
+           <p>i'm also big on encouraging a supportive environment for women and girls to explore
+              problem-solving with math. i direct an annual competition for the <em>girls math association</em>, so 
+              take a look at our site!
             </p>
             <Link to="/community">
             <Button linkDescription = "check out a math event i hosted" color = "pinkButton"></Button>
@@ -184,9 +187,9 @@ const IndexPage = () => (
 
         <div style = {{color: 'white'}}>
           <p className = {sectionName}>engineering</p>
-          <p>i am part of gael force robotics, my school's 
-            VEX robotics club. i have been a member of teams 5327U, 5327C, 
-            and 5327R. i code in robot-c, help build our robot, and
+          <p>i've been a part of gael force robotics, my school's 
+            VEX robotics club, for all of my high school experience. teams i've been on include 
+            teams 5327U, 5327C, and 5327R. i code in robot-c, help build our robot, and
             document the process for competitions. 
           </p>
           <p>robotics teaches me about the hardware side of engineering. 
@@ -222,13 +225,13 @@ const IndexPage = () => (
           <p>but poetry isn't all that different
             from programming. the words fit together like puzzle
             pieces, interlocking and melding into a cohesive 
-            picture. i could change an indent, add a word,
-              and the mood of the entire poem would shift. </p>
+            picture. i change an indent, add a word,
+              and the mood of the entire poem shifts. </p>
           
           <p style = {{textTransform: 'lowercase'}}>
             writing poetry allows me to notice the small things in life. 
             the empty night space between two houses, scorched hills, half a 
-            moon cake.
+            moon cake on my plate.
           </p>
 
           <p>
@@ -262,9 +265,10 @@ const IndexPage = () => (
             
             </p>
             <p>
-              while i'm not whitney houston, i like to make covers of my 
+              aside from karoake nights, i like to make covers of my 
               favorite songs to share. i've also recently started a tiktok 
-              account for music!
+              account for music! some of my piano pieces and covers are on the music 
+              page on this portfolio.
 
             </p>
             <Link to="/music-and-poetry">
