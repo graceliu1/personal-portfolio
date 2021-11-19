@@ -93,9 +93,10 @@ const FourthPage = () => (
 
           </p>
           <p> 
-          Favorite poems/poem collections: "Remember" (Christina Rossetti), "Goblin Market" (Christina Rossetti), "The Rhodora" (
-            Ralph Waldo Emerson),
-            <em>Veinte poemas de amor y una canción desesperada</em> (Pablo Neruda)
+          Favorite poems/poem collections: "The Rhodora" (
+            Ralph Waldo Emerson), "Goblin Market" (Christina Rossetti), 
+            <em>Veinte poemas de amor y una canción desesperada</em> (Pablo Neruda),
+            "The Moon Was But a Chin of Gold" (Emily Dickinson)
           
           </p>
 
