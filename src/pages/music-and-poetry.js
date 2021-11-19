@@ -80,8 +80,8 @@ const FourthPage = () => (
 
 
     <Section sectionTitle = "Poetry">
-       <img src = {three_names_poem} style = {{minWidth:'150px', border: '1px solid black'}}/>
-    <img src = {pottery_memoirs_poem} style = {{minWidth:'150px', border: '1px solid black'}}/>
+       <img src = {three_names_poem} style = {{minWidth:'150px'}}/>
+    <img src = {pottery_memoirs_poem} style = {{minWidth:'150px'}}/>
        
 
       <div style = {{backgroundColor: '#ffde85', maxWidth: '35%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}}>
@@ -96,7 +96,7 @@ const FourthPage = () => (
           Favorite poems/poem collections: "The Rhodora" (
             Ralph Waldo Emerson), "Goblin Market" (Christina Rossetti), 
             <em>Veinte poemas de amor y una canción desesperada</em> (Pablo Neruda),
-            "The Moon Was But a Chin of Gold" (Emily Dickinson)
+            "The Moon Was But a Chin of Gold" (Emily Dickinson), "the old astronomer" (Sarah Williams)
           
           </p>
 
