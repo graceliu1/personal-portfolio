@@ -80,8 +80,8 @@ const FourthPage = () => (
 
 
     <Section sectionTitle = "Poetry">
-       <img src = {three_names_poem} style = {{minWidth:'150px'}}/>
-    <img src = {pottery_memoirs_poem} style = {{minWidth:'150px'}}/>
+       <img src = {three_names_poem} style = {{minWidth:'150px', border: '1px solid black'}}/>
+    <img src = {pottery_memoirs_poem} style = {{minWidth:'150px', border: '1px solid black'}}/>
        
 
       <div style = {{backgroundColor: '#ffde85', maxWidth: '35%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}}>
@@ -104,8 +104,8 @@ const FourthPage = () => (
     </Section>
 
     <div>
-     <img src = {inception_poem} style = {{minWidth:'250px'}} />
-    <img src = {somnium_poem} style = {{minWidth:'250px'}}/>
+     <img src = {inception_poem} style = {{maxWidth:'250px'}} />
+    <img src = {somnium_poem} style = {{maxWidth:'250px'}}/>
     </div>
     
     <Section sectionTitle = "Music">
