@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from 'gatsby-plugin-image'
 
 import {sectionName,
   sectionContainer,
@@ -21,49 +22,16 @@ import inception_poem from "../images/inception.png"
 
 import qing_hua_ci_cover from '../images/qing_hua_ci_cover.png'
 import all_of_me_cover from '../images/all_of_me_cover.png'
-/*
-import qing_hua_ci_cover from "..images/qing_hua_ci_cover.png"
-import all_of_me_cover from "..images/all_of_me_cover.png"*/
 
 /*
-<p>
-        i. grace \n
-        my father saw a Catherine on stage in 2004,\n
-        wanted to name me after her glamour. \n
-        but that year, many saw the same movie. \n
-        the name catherine slipped out their lips \n
-        to touch the foreheads of their newborns \n
-        - and so out my mother’s lips \n
-        tumbled <em>Grace</em>\n
-        <br></br>
-        ii. liu xing yu \n
-        she calls me meteor rain.\n
-        a tribute to the jewels that shower the night,\n
-        inhaled into my fluttering lungs.\n
-        i hold my breath in the dark,\n
-         a thousand and one dreams \n
-        spiraling across my mind. \n
-        for what are shooting stars, \n
-        but the last phase of a dying star?\n
-        <br></br>
-        iii. bao ya\n
-        my nickname sounds like roasted duck\n
-        in my mother’s tongue, it is.\n
-        crispy skin, honey-sweet \n
-        fat and salt and joy.\n
-        she told me before i existed, \n
-        my father proclaimed that\n
-        a son would be called bao dan\n
-        a daughter would be called\n
-        treasured daughter\n
-        <em>(bao ya)</em>\n
 
 
-      </p>
-
-
-
-
+       <img src = {three_names_poem} style = {{minWidth:'150px'}}/>
+      <img src = {pottery_memoirs_poem} style = {{minWidth:'150px'}}/>
+      
+     <img src = {inception_poem} style = {{maxWidth:'250px'}} />
+    <img src = {somnium_poem} style = {{maxWidth:'250px'}}/>
+      
     <div className = {poetryBlock} className = {poetryBlock1} style = {{backgroundColor: '#e0a82f', color: 'white'}}>
       <p className = {poemName}>three names</p>
       <p> 
@@ -77,27 +45,35 @@ const FourthPage = () => (
   <Layout>
     <Seo title="Music and Poetry" />
     
-
-
     <Section sectionTitle = "Poetry">
-       <img src = {three_names_poem} style = {{minWidth:'150px'}}/>
-    <img src = {pottery_memoirs_poem} style = {{minWidth:'150px'}}/>
-       
-
-      <div style = {{backgroundColor: '#ffde85', maxWidth: '35%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}}>
+          <StaticImage style = {{maxWidth: '180px'}}
+              alt="Three Names Poem"
+              src="../images/poem_1.png"
+           />
+           <StaticImage style = {{maxWidth: '180px'}}
+              alt="Pottery Memoirs Poem"
+              src="../images/poem_2.png"
+           />
+                
+      
+      <div style = {{backgroundColor: '#f2e399', maxWidth: '30%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}}>
         <div style = {{margin: '40px'}}>
           <p className = {sectionName}>Poetry</p>
           
-          <p> Why do I write poetry? It started as a habit in middle school. For me, poetry is how I express curious thoughts in 
-          curious formats. There's a thousand small stories that I want to tell through words. 
+          <p> I picked up a habit of writing poetry in middle school. Over the years, it's become how I express curious thoughts in 
+          strange formats. Noticing the small things around me motivates me to share stories through poems/ 
 
           </p>
           <p> 
-          Favorite poems/poem collections: "The Rhodora" (
-            Ralph Waldo Emerson), "Goblin Market" (Christina Rossetti), 
-            <em>Veinte poemas de amor y una canción desesperada</em> (Pablo Neruda),
-            "The Moon Was But a Chin of Gold" (Emily Dickinson), "the old astronomer" (Sarah Williams)
-          
+          Some of my favorite poems: 
+            <ul>
+              <li>"The Rhodora" (Emerson)</li>
+              <li> "Goblin Market" (Rossetti) </li>
+              <li>"One Hundred Love Sonnets: XVII" (Neruda)</li>
+              <li>"Ode to a Large Tuna in the Market" (Neruda)</li>
+              <li>"The Moon Was But a Chin of Gold" (Dickinson)</li>
+
+            </ul>
           </p>
 
         </div>
@@ -105,8 +81,15 @@ const FourthPage = () => (
     </Section>
 
     <div>
-     <img src = {inception_poem} style = {{maxWidth:'250px'}} />
-    <img src = {somnium_poem} style = {{maxWidth:'250px'}}/>
+    <StaticImage style = {{minWidth: '300px'}}
+      alt="Tiger Poem"
+      src="../images/poem4.png" 
+    />
+    <StaticImage style = {{minWidth: '300px'}}
+      alt="Dream Poem"
+      src="../images/poem3.png" 
+    />
+        
     </div>
     
     <Section sectionTitle = "Music">
@@ -116,15 +99,15 @@ const FourthPage = () => (
           <p className = {sectionName}>Music</p>
           
           <p>  Whether quietly mouthing the lyrics to the newest pop hit at my desk or belting out solo Adele concerts in the shower, 
-            I am constantly singing. 
+            I love singing. 
           </p>
-          <p>My favorite songs capture fleeting snapshots of daily life; when I hear Fight Song, I am immediately reminded of busy 
+          <p>My favorite songs provide fleeting snapshots of daily life; when I hear Fight Song, I am immediately reminded of busy 
             summer days spent eating persimmons and running errands with my mother. 
           </p>
           <p> 
               
-         The memories evoked from different songs stay with me long after the first time I hear them. To my friends, crooning Spanish pop
-           hits bring back memories of loud karaoke nights at our houses. When I sing, I can almost taste the emotion behind every word. 
+         The memories captured in melodies stay with me for years. With my friends, crooning Spanish pop
+           hits bring back memories of loud karaoke nights at our houses. 
          </p>
           <p>
            
