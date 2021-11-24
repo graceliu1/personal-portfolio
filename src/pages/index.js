@@ -66,18 +66,16 @@ const IndexPage = () => (
           <div className = {sectionContent} >
             <p className = {sectionName}>hello, i'm grace!</p>
             
-            <p>i'm a high school student from the east bay area who's passionate about 
-              creating -- by combining 
-              <span className = {highlightTextPink} style = {{zIndex: '0'}}>problem solving skills & creative thinking</span>
+            <p>i'm a high school student from the east bay area who loves creating by combining 
+              <span className = {highlightTextPink} style = {{zIndex: '0'}}>creative thinking & problem solving skills </span>
               to address challenges in my community.
             </p>
-            <p>as a student leader, i believe that a strong team is essential to success. 
-              i lead the <em>girls who code club</em>,  the <em> dublin shield</em>, the <em>sociedad honoraria hispanica</em>, the
-                <em>girls math association</em>, and the <em>econ club</em>. 
+            <p>i'm involved in several different initiatives as a student leader at my school.
+          currently, i lead the <em>girls who code club</em>,  the <em> dublin shield</em>, the <em>spanish honors society</em>,
+             the <em>girls math association</em>, and the <em>econ club</em>. i believe that a strong team is essential to success.
             </p>
             <p>
-                  some things i like to do in my free time are read (send book recs!), go on city scavenger hunts, and sing covers
-                  of pop songs.
+                  in my free time, i like to read (send book recs!), go on city scavenger hunts with friends, and sing covers of pop songs.
             </p>
             <p>check out some <span className = {highlightTextPink} style = {{zIndex: '0'}}>~cool visuals~</span> of my projects and organizations on this site! p.s.
             designs on here are created by me :)
