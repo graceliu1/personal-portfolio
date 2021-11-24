@@ -71,7 +71,7 @@ const IndexPage = () => (
               with technology to address local challenges. 
             </p>
             <p>in my community, i'm a dedicated student leader. clubs that i'm involved with include <em>girls who code</em>,  the <em> dublin shield</em>, the <em>spanish honors society</em>,
-             the <em>girls math association</em>, and the <em>econ club</em>. 
+             the <em>gma</em>, and the <em>econ club</em>. 
              
             </p>
             <p>in my free time, i like to read (send book recs), go on city scavenger hunts with friends, and sing covers.
