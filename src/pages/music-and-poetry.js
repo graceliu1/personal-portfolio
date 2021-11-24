@@ -65,7 +65,7 @@ const FourthPage = () => (
           <p className = {sectionName}>Poetry</p>
           
           <p> I picked up a habit of writing poetry in middle school. Over the years, it's become how I express curious thoughts in 
-          strange formats. Noticing the small things around me motivates me to share stories through poems/ 
+          strange formats. 
 
           </p>
           <p> 
