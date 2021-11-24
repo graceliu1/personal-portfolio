@@ -61,7 +61,7 @@ const FourthPage = () => (
                 
       
       <div style = {{backgroundColor: '#f2e399', maxWidth: '30%', boxShadow: ' 0px 2px 5px rgba(155, 155, 155, 0.8)'}}>
-        <div style = {{margin: '40px'}}>
+        <div style = {{padding: '40px'}}>
           <p className = {sectionName}>Poetry</p>
           
           <p> I picked up a habit of writing poetry in middle school. Over the years, it's become how I express curious thoughts in 
@@ -84,12 +84,12 @@ const FourthPage = () => (
       </div>
     </Section>
     <Section>
-    <div>
-    <StaticImage style = {{width: '50%'}}
+    <div style = {{display: 'flex', alignItems: 'center'}}>
+    <StaticImage style = {{height: '500px'}}
       alt="Tiger Poem"
       src="../images/poem_3.png" 
     />
-    <StaticImage style = {{width: '50%'}}
+    <StaticImage style = {{width: '500px'}}
       src="../images/poem_4.png" 
     />
         
