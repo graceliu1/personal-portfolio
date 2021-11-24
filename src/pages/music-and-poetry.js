@@ -46,13 +46,13 @@ const FourthPage = () => (
     <Seo title="Music and Poetry" />
     
     <Section sectionTitle = "Poetry">
-          <div style = {{minWidth: '30%', maxWidth: '30%'}}>
+          <div style = {{height: '800px'}}>
           <StaticImage 
               alt="Three Names Poem"
               src="../images/poem_1.png"
            />
            </div>
-          <div style = {{minWidth: '30%', maxWidth: '30%'}}>
+          <div style = {{height: '800px'}}>
            <StaticImage
               alt="Pottery Memoirs Poem"
               src="../images/poem_2.png"
@@ -83,18 +83,18 @@ const FourthPage = () => (
         </div>
       </div>
     </Section>
-
+    <Section>
     <div>
-    <StaticImage style = {{minWidth: '300px'}}
+    <StaticImage style = {{width: '50%'}}
       alt="Tiger Poem"
       src="../images/poem4.png" 
     />
-    <StaticImage style = {{minWidth: '300px'}}
-      alt="Dream Poem"
+    <StaticImage style = {{width: '50%}}
       src="../images/poem3.png" 
     />
         
     </div>
+    </Section>
     
     <Section sectionTitle = "Music">
 
