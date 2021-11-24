@@ -89,7 +89,7 @@ const FourthPage = () => (
       alt="Tiger Poem"
       src="../images/poem4.png" 
     />
-    <StaticImage style = {{width: '50%}}
+    <StaticImage style = {{width: '50%'}}
       src="../images/poem3.png" 
     />
         
