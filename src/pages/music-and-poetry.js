@@ -47,13 +47,13 @@ const FourthPage = () => (
     
     <Section sectionTitle = "Poetry">
           <div style = {{minWidth: '30%', maxWidth: '30%'}}>
-          <StaticImage style = {{minWidth: '30%', maxWidth: '30%'}}
+          <StaticImage 
               alt="Three Names Poem"
               src="../images/poem_1.png"
            />
            </div>
           <div style = {{minWidth: '30%', maxWidth: '30%'}}>
-           <StaticImage style = {{minWidth: '30%', maxWidth: '30%'}}
+           <StaticImage
               alt="Pottery Memoirs Poem"
               src="../images/poem_2.png"
            />
