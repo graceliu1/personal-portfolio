@@ -5,7 +5,6 @@
   </a>
 </p>
 
-Created using Gatsby - open source frontend framework. 
 ## my personal portfolio 🤩
 
 To contact me, please send an email to grace.by.liu@gmail.com.
