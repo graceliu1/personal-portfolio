@@ -4,9 +4,6 @@
     <img alt="Gatsby" src="src/images/icon.png" width="60" />
   </a>
 </p>
-<h1 align="center">
-  Grace Liu's Personal Portfolio
-</h1>
 
 Created using Gatsby - open source frontend framework. 
 ## my personal portfolio 🤩
