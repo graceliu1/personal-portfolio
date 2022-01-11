@@ -50,14 +50,14 @@ const IndexPage = () => (
             <p>i'm a student at dublin high school in the east bay area.</p>
 
             <p>i'm fascinated by intersections of  <span className = {highlightTextPink} style = {{zIndex: '0'}}>engineering and applications
-for society </span>. i love building things— both robots and websites— 
+for society</span>. i love building things— both robots and websites— 
              to create inventive solutions. in college, i hope to focus on ethical engineering.</p>
               
             <p>in my community, i'm involved with my school robotics club, the <em> dublin shield</em>, the <em>spanish honors society</em>,
              the <em>gwc</em>, and more. 
              
             </p>
-            <p>i love to read (please send book recs), go on city scavenger hunts with friends, sing, and play badminton in my free time.
+            <p>i love to read (please send book recs), sing, and play badminton with friends and family in my free time.
             </p>
             <p>check out some <span className = {highlightTextPink} style = {{zIndex: '0'}}>~cool visuals~</span> of my projects and teams on this site!
             </p>
@@ -124,37 +124,6 @@ for society </span>. i love building things— both robots and websites—
       
     </Section>
     
-    <Section sectionTitle = "programming">
-        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', minWidth: '35%'}}>
-          <img className = {sectionImage2} src = {figure2}/>
-        </div>
-        <div className = {section2}>
-            <div>
-              <p className = {sectionName}>programming</p>
-              <p>to me, the ability to code is freedom to explore and make anything i want to. through web dev, i'm able to 
-              fuse design and technical aspects. 
-              </p>
-
-              <p>
-              i develop sites for both personal pursuits and community endeavors. i'm gaining experience in full-stack development - 
-              languages including html, css, javascript, php, and react.js.
-
-              </p>
-              <p>
-              as president of my school's <em>girls who code</em> club, i teach 
-                members the basics of Python and Java in workshops and events. 
-              </p>
-              <p>
-                aside from full-stack, i'm currently exploring algorithms. i program in 
-                java, python, and some c++.
-
-              </p>
-
-              <Link to="/technology"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
-            </div>
-        </div>
-      
-    </Section>
   
 
     <Section sectionTitle = "math">
@@ -187,7 +156,38 @@ for society </span>. i love building things— both robots and websites—
           <img className = {sectionImage3} src = {figure3}/>
         </div>
     </Section>
+    
+    <Section sectionTitle = "programming">
+        <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', minWidth: '35%'}}>
+          <img className = {sectionImage2} src = {figure2}/>
+        </div>
+        <div className = {section2}>
+            <div>
+              <p className = {sectionName}>programming</p>
+              <p>to me, the ability to code is freedom to explore and make anything i want to. through web dev, i'm able to 
+              fuse design and technical aspects. 
+              </p>
 
+              <p>
+              i develop sites for both personal pursuits and community endeavors. i'm gaining experience in full-stack development - 
+              languages including html, css, javascript, php, and react.js.
+
+              </p>
+              <p>
+              as president of my school's <em>girls who code</em> club, i teach 
+                members the basics of Python and Java in workshops and events. 
+              </p>
+              <p>
+                aside from full-stack, i'm currently exploring algorithms. i program in 
+                java, python, and some c++.
+
+              </p>
+
+              <Link to="/technology"><Button linkDescription = "see my projects" color = "pinkButton"></Button></Link>
+            </div>
+        </div>
+      
+    </Section>
    
     
 
