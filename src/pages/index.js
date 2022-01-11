@@ -33,25 +33,6 @@ import figure3 from "../images/math_figure.png"
 import figure4 from "../images/engineering_figure.png"
 import figure5 from "../images/poetry_figure.png"
 import figure6 from "../images/music_figure.png"
-/*
-
-
-
- 
-          <StaticImage className = {sectionImage} style = {{ width: '250px'}}
-            alt="Abstract Figure 1"
-            src="../images/introduction_figure.png"
-          />
-
-          <StaticImage className = {sectionImage2} 
-            alt="Abstract Figure 2" 
-            src="../images/programming_figure.png"
-          />
-          
-          i founded the girls math association to encourage my peers to enter
-              the math competition scene. every year, i organize the annual gma 
-              math contest for middle school girls. over 200 girls have attended in the past two years.
-          */
 
 const IndexPage = () => (
   
@@ -66,15 +47,17 @@ const IndexPage = () => (
           <div className = {sectionContent} >
             <p className = {sectionName}>hello, i'm grace!</p>
             
-            <p>i'm a high school student from the east bay area who's passionate about creating -- by combining 
-              <span className = {highlightTextPink} style = {{zIndex: '0'}}>creative thinking & problem solving skills </span>
-              with technology to address local challenges. 
-            </p>
-            <p>in my community, i'm a dedicated student leader. clubs that i'm involved with include <em>girls who code</em>,  the <em> dublin shield</em>, the <em>spanish honors society</em>,
-             the <em>gma</em>, and the <em>econ club</em>. 
+            <p>i'm a student at dublin high school in the east bay area.</p>
+
+            <p>i'm fascinated by intersections of  <span className = {highlightTextPink} style = {{zIndex: '0'}}>engineering and applications
+for society </span>. i love building things— both robots and websites— 
+             to create inventive solutions. in college, i hope to focus on ethical engineering.</p>
+              
+            <p>in my community, i'm involved with my school robotics club, the <em> dublin shield</em>, the <em>spanish honors society</em>,
+             the <em>gwc</em>, and more. 
              
             </p>
-            <p>in my free time, i like to read (send book recs), go on city scavenger hunts with friends, and sing covers.
+            <p>i love to read (please send book recs), go on city scavenger hunts with friends, sing, and play badminton in my free time.
             </p>
             <p>check out some <span className = {highlightTextPink} style = {{zIndex: '0'}}>~cool visuals~</span> of my projects and teams on this site!
             </p>
@@ -106,7 +89,40 @@ const IndexPage = () => (
         
     </Section>
   
-    
+     
+    <Section sectionTitle = "engineering">
+      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center',  minWidth: '35%'}}>
+          <img className = {sectionImage4} src = {figure4}/>
+        </div>
+     
+
+      <div className = {section4}>
+
+        <div style = {{color: 'white'}}>
+          <p className = {sectionName}>engineering</p>
+          <p>i've been a part of gael force robotics, my school's 
+            VEX robotics club, for all of my high school experience. teams i've been on include 
+            teams 5327U, 5327C, and 5327R. i code in robot-c, help build our robot, and
+            document the process for competitions. 
+          </p>
+          <p>robotics teaches me about the hardware side of engineering. 
+            i enjoy fusing together my programming and building skills 
+            to create a functional product.
+          </p>
+          <p>
+            i am also a member of my school's engineering and design 
+            academy. the academy fuses entrepenuership skills with engineering. 
+            i participate in our annual entrepenuership competition and build a 
+            variety of projects throughout the school year. 
+          </p>
+        <Link to="/technology">
+        <Button linkDescription = "check out our robot + my projects" color = "pinkButton"></Button>
+        </Link>
+        </div>
+      
+      </div>
+      
+    </Section>
     
     <Section sectionTitle = "programming">
         <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', minWidth: '35%'}}>
@@ -172,40 +188,7 @@ const IndexPage = () => (
         </div>
     </Section>
 
-    
-    <Section sectionTitle = "engineering">
-      <div style = {{display: 'flex', justifyContent: 'center', alignItems: 'center',  minWidth: '35%'}}>
-          <img className = {sectionImage4} src = {figure4}/>
-        </div>
-     
-
-      <div className = {section4}>
-
-        <div style = {{color: 'white'}}>
-          <p className = {sectionName}>engineering</p>
-          <p>i've been a part of gael force robotics, my school's 
-            VEX robotics club, for all of my high school experience. teams i've been on include 
-            teams 5327U, 5327C, and 5327R. i code in robot-c, help build our robot, and
-            document the process for competitions. 
-          </p>
-          <p>robotics teaches me about the hardware side of engineering. 
-            i enjoy fusing together my programming and building skills 
-            to create a functional product.
-          </p>
-          <p>
-            i am also a member of my school's engineering and design 
-            academy. the academy fuses entrepenuership skills with engineering. 
-            i participate in our annual entrepenuership competition and build a 
-            variety of projects throughout the school year. 
-          </p>
-        <Link to="/technology">
-        <Button linkDescription = "check out our robot + my projects" color = "pinkButton"></Button>
-        </Link>
-        </div>
-      
-      </div>
-      
-    </Section>
+   
     
 
     <Section sectionTitle = "poetry">
