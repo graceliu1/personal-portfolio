@@ -49,9 +49,9 @@ const IndexPage = () => (
             
             <p>i'm a student at dublin high school in the east bay area.</p>
 
-            <p>i'm fascinated by intersections of  <span className = {highlightTextPink} style = {{zIndex: '0'}}>engineering and applications
-for society</span>. i love building things— both robots and websites— 
-             to create inventive solutions. in college, i hope to focus on ethical engineering.</p>
+            <p>i'm fascinated by the intersection of  <span className = {highlightTextPink} style = {{zIndex: '0'}}>engineering and 
+our society</span>, especially in applications. i love building things— including robots and websites— 
+             to generate inventive solutions. my goals in college and beyond are to focus on ethical engineering research.</p>
               
             <p>in my community, i'm involved with my school robotics club, the <em> dublin shield</em>, the <em>spanish honors society</em>,
              the <em>gwc</em>, and more. 
