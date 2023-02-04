@@ -47,17 +47,16 @@ const IndexPage = () => (
           <div className = {sectionContent} >
             <p className = {sectionName}>hello, i'm grace!</p>
             
-            <p>i'm a student at dublin high school in the east bay area.</p>
+            <p>i'm a first-year student at princeton intending on concentrating in CS.</p>
 
-            <p>i'm fascinated by the intersection of  <span className = {highlightTextPink} style = {{zIndex: '0'}}>engineering and 
-our society</span>, especially in applications. i love building things— including robots and websites— 
-             to generate inventive solutions. my goals in college and beyond are to focus on ethical engineering research.</p>
+            <p>i'm fascinated by the intersection of  <span className = {highlightTextPink} style = {{zIndex: '0'}}>engineering, art, and
+society</span>, as well as hands-on user applications that improve efficiency. i love building things.</p>
               
-            <p>in my community, i'm involved with my school robotics club, the <em> dublin shield</em>, the <em>spanish honors society</em>,
-             the <em>gwc</em>, and more. 
+            <p>in the past, i was  involved with girls who code, my school robotics club, the <em> dublin shield</em>, the <em>spanish honors society</em>,
+             the <em>gwc</em>, and more. i'm currently joining student organizations like the SWE and AASA in university. 
              
             </p>
-            <p>i love to read (please send book recs), sing, and play badminton with friends and family in my free time.
+            <p>some of my other interests are reading, singing, and poetry.
             </p>
             <p>check out some <span className = {highlightTextPink} style = {{zIndex: '0'}}>~cool visuals~</span> of my projects and teams on this site!
             </p>
