@@ -47,13 +47,13 @@ const IndexPage = () => (
           <div className = {sectionContent} >
             <p className = {sectionName}>hello, i'm grace!</p>
             
-            <p>i'm a first-year student at princeton intending on concentrating in CS.</p>
+            <p>i'm a first-year student at princeton pursuing a B.S.E. in computer science.</p>
 
             <p>i'm fascinated by the intersection of  <span className = {highlightTextPink} style = {{zIndex: '0'}}>engineering, art, and
 society</span>, as well as hands-on user applications that improve efficiency. i love building things.</p>
               
-            <p>in the past, i was  involved with girls who code, my school robotics club, the <em> dublin shield</em>, the <em>spanish honors society</em>,
-             the <em>gwc</em>, and more. i'm currently joining student organizations like the SWE and AASA in university. 
+            <p>in the past, i was  involved with girls who code, my school robotics club, the <em> dublin shield</em>,
+             <em>girls who code</em>, and more. i'm currently joining student organizations like the SWE and AASA. 
              
             </p>
             <p>some of my other interests are reading, singing, and poetry. (p.s.) all of the graphics on this page are self-designed!)
