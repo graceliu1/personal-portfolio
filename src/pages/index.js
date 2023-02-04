@@ -56,7 +56,7 @@ society</span>, as well as hands-on user applications that improve efficiency. i
              the <em>gwc</em>, and more. i'm currently joining student organizations like the SWE and AASA in university. 
              
             </p>
-            <p>some of my other interests are reading, singing, and poetry.
+            <p>some of my other interests are reading, singing, and poetry. (p.s.) all of the graphics on this page are self-designed!)
             </p>
             <p>check out some <span className = {highlightTextPink} style = {{zIndex: '0'}}>~cool visuals~</span> of my projects and teams on this site!
             </p>
